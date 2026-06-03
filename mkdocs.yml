@@ -1,1 +1,90 @@
-site_name: My Docs
+site_name: National 5 Computer Science
+
+nav:
+    - Home: 'index.md'
+    - Software Design and Development: 
+      - Development Methodologies: '1.1-development-methodologies.md'
+    - Computer Systems:
+      - Number Representation:
+        - Understanding Binary: '2.1-number-representation.md'
+        - Binary to Decimal Conversion: '2.1.1-binary-to-decimal.md'
+        - Decimal to Binary Conversion: '2.1.2-decimal-to-binary.md'
+    - Database Design and Development:
+      - Database Structure:
+        - What makes a Database?: '3.1-database-structure.md'
+        - Relational Databases: '3.1.1-relational-databases.md'
+        - Field Types: '3.1.2-field-types.md'
+        - Primary Keys: '3.1.3-primary-keys.md'
+        - Foreign Keys: '3.1.4-foreign-keys.md'
+        - How Tables Link: '3.1.5-how-tables-link.md'
+      - Analysis: '3.2-analysis.md'
+        
+      
+markdown_extensions:
+      - admonition
+      - pymdownx.details
+      - def_list
+      - pymdownx.critic
+      - pymdownx.caret
+      - pymdownx.keys
+      - pymdownx.mark
+      - pymdownx.tilde
+      - attr_list
+      - md_in_html    
+      - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      - pymdownx.superfences
+      - pymdownx.tabbed:
+          alternate_style: true
+      - pymdownx.highlight:
+          use_pygments: true
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+      - pymdownx.inlinehilite
+      - pymdownx.snippets
+      
+theme:
+  name: material
+  font:
+    text: Quicksand
+  palette:
+    scheme: default
+    primary: blue
+    accent: deep orange
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.indexes 
+    - navigation.path
+    #- navigation.footer
+    - navigation.tabs
+#plugins:
+  #- glightbox
+
+copyright: Copyright &copy; 2025 Pixel&Wood Computer Science Tuition
+
+extra_css:
+  - Styles/extra.css
+
+extra_javascript:
+  - scripts/extra.js
+    
+
