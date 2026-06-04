@@ -4,6 +4,9 @@ nav:
     - Home: 'index.md'
     - Software Design and Development: 
       - Development Methodologies: '1.1-development-methodologies.md'
+      - Analysis: 
+        - Explanation: '1.2-analysis.md'
+        - Tasks: '1.2.1-analysis-tasks.md'
     - Computer Systems:
       - Number Representation:
         - Understanding Binary: '2.1-number-representation.md'
@@ -18,6 +21,7 @@ nav:
         - Foreign Keys: '3.1.4-foreign-keys.md'
         - How Tables Link: '3.1.5-how-tables-link.md'
       - Analysis: '3.2-analysis.md'
+        
         
       
 markdown_extensions:

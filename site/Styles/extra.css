@@ -1,0 +1,24 @@
+table.ipo-table {
+  width: 100%;
+  table-layout: fixed;
+  margin: 0.85rem 0 1.4rem;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+table.ipo-table th,
+table.ipo-table td {
+  border: 2px solid var(--md-default-fg-color);
+  padding: 0.4rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+table.ipo-table th {
+  background-color: var(--md-default-fg-color--lightest);
+  font-weight: 700;
+}
+
+table.ipo-table td {
+  height: 2.5rem;
+}
