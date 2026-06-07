@@ -25,6 +25,13 @@ nav:
         - Foreign Keys: '3.1.4-foreign-keys.md'
         - How Tables Link: '3.1.5-how-tables-link.md'
       - Analysis: '3.2-analysis.md'
+      - Implementation:
+        - SQL Select: 
+          - Explanation: '3.4.1-sql-select.md'
+          - Tasks: '3.4.1.1-select-tasks.md'
+        - SQL Insert/Update/Delete: 
+          - Explanation: '3.4.2-sql-insert.md'
+          - Tasks: '3.4.2.1-insert-update-delete-tasks.md'
         
         
       
