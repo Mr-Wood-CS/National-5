@@ -1,0 +1,613 @@
+Database Structure
+
+What is a Database?
+
+A database is an organized collection of information or data. Putting information into a computer database gives you far more flexibility in organising, displaying and printing that information.
+Almost everyone who uses a computer will use a database system for something:
+
+ Banks use a database package for storing customers' accounts information
+ Your school will use a database package to store information on all the pupils in the school
+ Police use databases to keep information on people with criminal records
+
+Flat File Databases
+
+A flat file database is a database that stores all data in a single table:
+
+ Only one table is used.
+ All data is stored in rows and columns within that one table.
+
+  
+Table: Membership
+  
+
+User ID | Name | Address | Mobile Number | Date of Birth | PT Required? | Gym ID
+  
+
+01 | John Wren | 20 Langholm Way | +44 7300 123456 | 27/05/45 | Yes | 01
+  
+
+02 | Louise Newbold | 13 Hawick Heights | +44 7400 654321 | 14/09/63 | No | 05
+  
+
+03 | Michael Wilson | Trinity House | +44 7500 987654 | 08/12/85 | No | 03
+  
+
+04 | James Watson | Flat 22, Dull Flats | +44 7590 473816 | 07/12/81 | No | 04
+  
+
+05 | Joseph Graham | The Salmon Leap | +44 7700 567890 | 22/07/04 | Yes | 02
+  
+
+06 | Claire Delcroix | Waters Edge | +44 7783 920145 | 22/07/04 | No | 04
+  
+
+07 | Susan Amer | 25 Christmas Drive | +44 7412 658392 | 24/09/78 | Yes | 03
+  
+
+Structure of a Flat File Database
+
+Fields
+
+A 'Field' holds one piece of data at a time – for example, a person's name, age, or phone number.
+
+  
+Table: Membership
+  
+
+User ID | Name | Address | Mobile Number | Date of Birth | PT Required? | Gym ID
+  
+
+01 | John Wren | 20 Langholm Way | +44 7300 123456 | 27/05/45 | Yes | 01
+  
+
+02 | Louise Newbold | 13 Hawick Heights | +44 7400 654321 | 14/09/63 | No | 05
+  
+
+03 | Michael Wilson | Trinity House | +44 7500 987654 | 08/12/85 | No | 03
+  
+
+04 | James Watson | Flat 22, Dull Flats | +44 7590 473816 | 07/12/81 | No | 04
+  
+
+05 | Joseph Graham | The Salmon Leap | +44 7700 567890 | 22/07/04 | Yes | 02
+  
+
+06 | Claire Delcroix | Waters Edge | +44 7783 920145 | 22/07/04 | No | 04
+  
+
+07 | Susan Amer | 25 Christmas Drive | +44 7412 658392 | 24/09/78 | Yes | 03
+  
+
+Records
+
+A 'Record' holds all the data for one entry in the table – for example, all the information about a single customer.
+
+  
+Table: Membership
+  
+
+User ID | Name | Address | Mobile Number | Date of Birth | PT Required? | Gym ID
+  
+
+01 | John Wren | 20 Langholm Way | +44 7300 123456 | 27/05/45 | Yes | 01
+  
+
+02 | Louise Newbold | 13 Hawick Heights | +44 7400 654321 | 14/09/63 | No | 05
+  
+
+03 | Michael Wilson | Trinity House | +44 7500 987654 | 08/12/85 | No | 03
+  
+
+04 | James Watson | Flat 22, Dull Flats | +44 7590 473816 | 07/12/81 | No | 04
+  
+
+05 | Joseph Graham | The Salmon Leap | +44 7700 567890 | 22/07/04 | Yes | 02
+  
+
+06 | Claire Delcroix | Waters Edge | +44 7783 920145 | 22/07/04 | No | 04
+  
+
+07 | Susan Amer | 25 Christmas Drive | +44 7412 658392 | 24/09/78 | Yes | 03
+  
+
+Flat File Anomalies
+
+What are Flat File Anomalies?
+
+A major disadvantage of a flat file database is that the same data is often stored multiple times. This duplication of data can lead to anomalies (problems) when records are inserted, updated, or deleted.
+
+There are three main types of anomaly:
+
+Update Anomaly
+
+An update anomaly occurs when the same piece of data is stored in multiple records and needs to be changed.
+
+If one record is updated but another is missed, the database becomes inconsistent.
+
+  Example
+  If the Carlisle gym changes its location name to Carlisle Central, every record containing Carlisle must be updated.
+  
+
+  
+    User ID | Name | Gym Location
+  
+
+    02 | Louise Newbold | Carlisle
+  
+
+    03 | Michael Wilson | Carlisle
+  
+
+    07 | Susan Amer | Carlisle
+  
+
+  
+  If one record is missed, the database will contain inconsistent information.
+
+Insert Anomaly
+
+An insert anomaly occurs when you cannot add new data without entering unnecessary information.
+
+  Example
+  Suppose a new gym opens in Edinburgh, but no members have joined yet.
+  
+
+  
+    User ID | Name | Gym Location
+  
+
+    01 | John Wren | Hawick
+  
+
+    02 | Louise Newbold | Carlisle
+  
+
+  
+  In a flat file database, it may not be possible to store information about the Edinburgh gym until at least one member is linked to it.
+  This means useful information cannot be stored independently.
+
+Delete Anomaly
+
+A delete anomaly occurs when deleting one record accidentally removes other important information.
+
+  Example
+  If John Wren leaves the gym and his record is deleted, all information about the Hawick gym is lost.
+  
+
+  
+    User ID | Name | Gym Location
+  
+
+    01 | John Wren | Hawick
+  
+
+  
+  The gym may still exist, but there is no longer any record of it in the database.
+
+Relational Databases
+
+How Relational Databases Solve These Problems
+
+Relational databases solve update, insert and delete anomalies by storing data in multiple related tables.
+
+Instead of storing all information in one large table, the data is split into smaller tables. This reduces duplication and makes the database easier to maintain.
+
+This:
+
+ Reduces data duplication.
+ Makes updates easier.
+ Prevents accidental loss of information.
+ Allows new data to be added independently of other data.
+Exam Tip
+Update, Insert and Delete anomalies are caused by data duplication in flat file databases. Relational databases help to avoid these problems by splitting data into related tables.
+
+Example of a Relational Database
+
+  
+Table: Membership
+  
+
+User ID | Name | Address | Mobile Number | Date of Birth | Gym ID
+  
+
+01 | John Wren | 20 Langholm Way | +44 7300 123456 | 27/05/45 | 01
+  
+
+02 | Louise Newbold | 13 Hawick Heights | +44 7400 654321 | 14/09/63 | 05
+  
+
+03 | Michael Wilson | Trinity House | +44 7500 987654 | 08/12/85 | 03
+  
+
+04 | James Watson | Flat 22, Dull Flats | +44 7590 473816 | 07/12/81 | 04
+  
+
+05 | Joseph Graham | The Salmon Leap | +44 7700 567890 | 22/07/04 | 02
+  
+
+06 | Claire Delcroix | Waters Edge | +44 7783 920145 | 22/07/04 | 04
+  
+
+07 | Susan Amer | 25 Christmas Drive | +44 7412 658392 | 24/09/78 | 03
+  
+
+  
+Table: Gym Details
+  
+
+Gym ID | Location | Address | Phone Number
+  
+
+01 | Hawick | Langholm Business Park | 01450 987654
+  
+
+02 | Langholm | Riverside Activity Zone | 013873 456789
+  
+
+03 | Carlisle | St Nicholas Business Park | 01228 765432
+  
+
+04 | Annan | Moss Side Community Centre | 01461 123456
+  
+
+05 | Carlisle | The Sands Centre | 01228 567234
+  
+
+Notice that gym information is stored only once in the Gym Details table rather than being repeated for every member.
+
+This reduces data duplication and helps prevent update, insert and delete anomalies.
+
+Entities
+
+When designing a database, the first step is to decide what information needs to be stored.
+
+An entity is a thing, person, place or object that the database needs to store information about.
+
+In a database, each entity usually becomes a table.
+
+Examples
+
+For a library database, possible entities could be:
+
+ Book
+ Author
+ Member
+ Loan
+
+For a music festival database, possible entities could be:
+
+ Band
+ Stage
+ Performance
+ Ticket
+
+Each entity represents one main thing the database needs to remember.
+
+Entity to Table
+
+Once an entity has been identified, it can be turned into a table.
+
+  
+Entity | Database Table
+  
+
+Book | Books
+  
+
+Author | Authors
+  
+
+Band | Bands
+  
+
+Performance | Performances
+  
+
+Choosing Entities
+
+To identify entities, look for the main things mentioned in the problem.
+
+For example:
+
+> "A pet shop wants to store details about customers and the pets they register for grooming appointments."
+
+The main things are:
+
+ customers
+ pets
+ grooming appointments
+
+These would become tables in the database.
+Exam Tip
+An entity is usually a noun in the problem description. It often becomes a table in the database.
+
+Attributes
+
+Once the entities have been chosen, the next step is to decide what information needs to be stored about each one.
+
+An attribute is a piece of information about an entity.
+
+In a database table, each attribute usually becomes a field.
+
+Examples
+
+If the entity is Film, useful attributes could be:
+
+ FilmID
+ FilmTitle
+ AgeRating
+ RunningTime
+
+If the entity is SportsClubMember, useful attributes could be:
+
+ MemberID
+ Forename
+ Surname
+ Team
+ DateJoined
+
+Attribute to Field
+
+Attributes become the field names in a table.
+
+  
+Entity | Attributes
+  
+
+Film | FilmID, FilmTitle, AgeRating, RunningTime
+  
+
+SportsClubMember | MemberID, Forename, Surname, Team, DateJoined
+  
+
+Entity, Attribute and Record
+
+These words are closely connected:
+
+  
+Database Word | Meaning | Example
+  
+
+Entity | The thing the database stores information about. | Film
+  
+
+Attribute | A detail about the entity. | FilmTitle
+  
+
+Record | One complete entry in the table. | Paddington 2, PG, 103 minutes, 2017
+  
+
+From Problem to Table
+
+Look at this sentence:
+
+> "A cinema wants to store information about each film. For every film, it needs the film title, age rating, running time in minutes and release year."
+
+The entity is:
+
+ Film
+
+The attributes are:
+
+ FilmTitle
+ AgeRating
+ RunningTime
+ ReleaseYear
+
+A record would store the details for one film.
+Exam Tip
+An attribute is a detail about an entity. In a database table, attributes become fields.
+
+Field Types
+
+When designing a database, it is important to choose the correct field type for each piece of data.
+
+At National 5, you need to know the field types below.
+
+Using the correct field type helps:
+
+ Store data accurately.
+ Reduce storage requirements.
+ Improve data validation.
+ Make searching and sorting easier.
+
+National 5 Field Types
+
+  
+Field Type | Description | Example
+  
+
+Text | Stores letters, numbers and symbols that are not used in calculations. Commonly used for names, addresses, postcodes and telephone numbers. | John Wren
+  
+
+Number | Stores numeric data that may be used in calculations. Commonly used for quantities, prices, stock levels and ages. | 25
+  
+
+Date | Stores calendar dates. Commonly used for dates of birth, booking dates and joining dates. | 27/05/1945
+  
+
+Time | Stores times during the day. Commonly used for lesson times, appointments and bookings. | 09:00
+  
+
+Boolean | Stores one of two possible values such as Yes/No, True/False or On/Off. | Yes
+
+Primary Keys
+
+When a database contains multiple tables, the tables need a way to be connected.
+
+Primary keys and foreign keys are used to create links between tables.
+
+Primary Keys
+
+A primary key is a field that uniquely identifies each record in a table.
+
+A primary key:
+
+ Must be unique.
+ Cannot be blank.
+ Identifies one record.
+
+Example: 
+
+In the membership table User ID is the primary key because each member has a different ID.
+
+  
+Table: Membership
+  
+
+User ID | Name | Address | Mobile Number | Date of Birth | PT Required?
+  
+
+01 | John Wren | 20 Langholm Way | +44 7300 123456 | 27/05/45 | Yes
+  
+
+02 | Louise Newbold | 13 Hawick Heights | +44 7400 654321 | 14/09/63 | No
+  
+
+03 | Michael Wilson | Trinity House | +44 7500 987654 | 08/12/85 | No
+  
+
+04 | James Watson | Flat 22, Dull Flats | +44 7590 473816 | 07/12/81 | No
+  
+
+05 | Joseph Graham | The Salmon Leap | +44 7700 567890 | 22/07/04 | Yes
+  
+
+06 | Claire Delcroix | Waters Edge | +44 7783 920145 | 22/07/04 | No
+  
+
+07 | Susan Amer | 25 Christmas Drive | +44 7412 658392 | 24/09/78 | Yes
+  
+
+In the gym details table Gym ID is the primary key because each gym has a unique ID.
+
+  
+Table: Gym Details
+  
+
+Gym ID | Location | Address | Phone Number
+  
+
+01 | Hawick | Langholm Business Park | 01450 987654
+  
+
+02 | Langholm | Riverside Activity Zone | 013873 456789
+  
+
+03 | Carlisle | St Nicholas Business Park | 01228 765432
+  
+
+04 | Annan | Moss Side Community Centre | 01461 123456
+  
+
+05 | Carlisle | The Sands Centre | 01228 567234
+
+Foreign Keys
+
+A foreign key is a field that stores the primary key from another table.
+
+Foreign keys are used to create links between tables.
+
+In our example database, the Gym ID stored in the Membership table matches a Gym ID in the Gym Details table.
+
+This allows the database to identify which gym each member belongs to.
+
+Example
+
+The Gym ID in the Membership table is a foreign key because it stores values from the Gym Details table.
+
+  
+Table: Membership
+  
+
+User ID | Name | Address | Mobile Number | Date of Birth | PT Required? | Gym ID
+  
+
+01 | John Wren | 20 Langholm Way | +44 7300 123456 | 27/05/45 | Yes | 01
+  
+
+02 | Louise Newbold | 13 Hawick Heights | +44 7400 654321 | 14/09/63 | No | 05
+  
+
+03 | Michael Wilson | Trinity House | +44 7500 987654 | 08/12/85 | No | 03
+  
+
+04 | James Watson | Flat 22, Dull Flats | +44 7590 473816 | 07/12/81 | No | 04
+  
+
+05 | Joseph Graham | The Salmon Leap | +44 7700 567890 | 22/07/04 | Yes | 02
+  
+
+06 | Claire Delcroix | Waters Edge | +44 7783 920145 | 22/07/04 | No | 04
+  
+
+07 | Susan Amer | 25 Christmas Drive | +44 7412 658392 | 24/09/78 | Yes | 03
+  
+
+  
+Table: Gym Details
+  
+
+Gym ID | Location | Address | Phone Number
+  
+
+01 | Hawick | Langholm Business Park | 01450 987654
+  
+
+02 | Langholm | Riverside Activity Zone | 013873 456789
+  
+
+03 | Carlisle | St Nicholas Business Park | 01228 765432
+  
+
+04 | Annan | Moss Side Community Centre | 01461 123456
+  
+
+05 | Carlisle | The Sands Centre | 01228 567234
+
+How Tables Link
+
+The Membership table contains information about members.
+
+The Gym Details table contains information about gyms.
+
+Both tables contain the Gym ID value. The Gym ID is the primary key in the Gym Details table and is stored in the Membership table as a foreign key.
+
+Example Link
+
+  Foreign key in Membership
+  links to
+  Primary key in Gym Details
+
+  
+Membership Table |  | Gym Details Table
+  
+
+Member | Gym ID (Foreign Key) |  | Gym ID (Primary Key) | Location
+  
+
+John Wren | 01 | links to | 01 | Hawick
+  
+
+Louise Newbold | 05 | links to | 05 | Carlisle
+  
+
+Michael Wilson | 03 | links to | 03 | Carlisle
+  
+
+The shared Gym ID creates the relationship between the two tables.
+
+Summary
+
+  
+Key Type | Purpose
+  
+
+Primary Key | Uniquely identifies each record in a table.
+  
+
+Foreign Key | Links one table to another by storing a primary key from a different table.
+  
+
+Exam Tip
+A primary key uniquely identifies a record. A foreign key creates a link between two tables by storing a primary key from another table.
