@@ -1993,7 +1993,7 @@
 </ol>
 <p><strong>End-User Requirements</strong></p>
 <p>Remember, these are the things the users of the database need it to do. In this case, the users are the library staff and pupils.</p>
-<p>They database should be able to:</p>
+<p>The database should be able to:</p>
 <ul>
 <li>Search for books by title, author, or genre</li>
 <li>See if a book is available or already on loan</li>
@@ -2008,57 +2008,55 @@
 <p><strong>Functional Requirements</strong></p>
 <p>Remember, these describe what the database must contain and what it must do to meet the needs of the users.</p>
 <p>The database will include three tables: Book, Pupil, and Loan.</p>
-<p>Each table needs a <strong>primary key</strong> – a unique ID to identify each record. The Loan table will also need __foreign keys_ to link to the Book and Pupil tables.</p>
+<p>Each table needs a <strong>primary key</strong> – a unique ID to identify each record. The Loan table will also need <strong>foreign keys</strong> to link to the Book and Pupil tables.</p>
 <p>In addition to a primary key and any necessary foreign keys, the following fields are required:</p>
-<div class="grid cards">
-<ul>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0s3.475.32 4.722.869c.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5s3.101-.295 4.118-.742c.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55s-.058-.318-.282-.551c-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5s-3.101.295-4.118.742c-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55m0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10s3.101-.295 4.118-.742c.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7s-3.475-.32-4.721-.869a6 6 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742s3.102-.295 4.117-.742c.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869s-3.475-.32-4.721-.869a6 6 0 0 1-.779-.406"/></svg></span> <strong>Book</strong></p>
-<hr />
-<ul>
-<li>Book ID (primary key)  </li>
-<li>Title  </li>
-<li>Author  </li>
-<li>Genre  </li>
-<li>Year Published  </li>
-<li>Available (Yes/No)</li>
-</ul>
-</li>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0s3.475.32 4.722.869c.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5s3.101-.295 4.118-.742c.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55s-.058-.318-.282-.551c-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5s-3.101.295-4.118.742c-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55m0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10s3.101-.295 4.118-.742c.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7s-3.475-.32-4.721-.869a6 6 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742s3.102-.295 4.117-.742c.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869s-3.475-.32-4.721-.869a6 6 0 0 1-.779-.406"/></svg></span> <strong>Pupil</strong></p>
-<hr />
-<ul>
-<li>Pupil ID (primary key)  </li>
-<li>First Name  </li>
-<li>Surname  </li>
-<li>Class</li>
-</ul>
-</li>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0s3.475.32 4.722.869c.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5s3.101-.295 4.118-.742c.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55s-.058-.318-.282-.551c-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5s-3.101.295-4.118.742c-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55m0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10s3.101-.295 4.118-.742c.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7s-3.475-.32-4.721-.869a6 6 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742s3.102-.295 4.117-.742c.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869s-3.475-.32-4.721-.869a6 6 0 0 1-.779-.406"/></svg></span> <strong>Loan</strong></p>
-<hr />
-<ul>
-<li>Loan ID (primary key)  </li>
-<li>Book ID (foreign key)  </li>
-<li>Pupil ID (foreign key)  </li>
-<li>Date Borrowed  </li>
-<li>Date Returned  </li>
-</ul>
-</li>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0s3.475.32 4.722.869c.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5s3.101-.295 4.118-.742c.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55s-.058-.318-.282-.551c-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5s-3.101.295-4.118.742c-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55m0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10s3.101-.295 4.118-.742c.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7s-3.475-.32-4.721-.869a6 6 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742s3.102-.295 4.117-.742c.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869s-3.475-.32-4.721-.869a6 6 0 0 1-.779-.406"/></svg></span> <strong>The database must also be able to:</strong></p>
-<hr />
-<ul>
-<li>Search for books based on different fields (title, author, genre)</li>
-<li>Sort results alphabetically or by date</li>
-<li>Check if a book is available</li>
-<li>List all books borrowed by a pupil</li>
-<li>Identify overdue books</li>
-</ul>
-</li>
-</ul>
+<div class="requirements-lists">
+  <section class="requirements-list">
+    <h3><span aria-hidden="true"></span>Book</h3>
+    <ul>
+      <li>Book ID (primary key)</li>
+      <li>Title</li>
+      <li>Author</li>
+      <li>Genre</li>
+      <li>Year Published</li>
+      <li>Available (Yes/No)</li>
+    </ul>
+  </section>
+  <section class="requirements-list">
+    <h3><span aria-hidden="true"></span>Pupil</h3>
+    <ul>
+      <li>Pupil ID (primary key)</li>
+      <li>First Name</li>
+      <li>Surname</li>
+      <li>Class</li>
+    </ul>
+  </section>
+  <section class="requirements-list">
+    <h3><span aria-hidden="true"></span>Loan</h3>
+    <ul>
+      <li>Loan ID (primary key)</li>
+      <li>Book ID (foreign key)</li>
+      <li>Pupil ID (foreign key)</li>
+      <li>Date Borrowed</li>
+      <li>Date Returned</li>
+    </ul>
+  </section>
 </div>
+
+<p><mark><strong>The database must also be able to:</strong></mark></p>
+<ul>
+<li><mark>Search books by title, author, or genre</mark></li>
+<li><mark>Sort results alphabetically or by date</mark></li>
+<li><mark>Check if a book is available</mark></li>
+<li><mark>List all books borrowed by a pupil</mark></li>
+<li><mark>Identify overdue books</mark></li>
+</ul>
+<hr />
 <p>By clearly identifying the end-user and functional requirements, you can make sure your database is designed with the right users and tasks in mind. This helps avoid problems later in development and ensures the final system does exactly what it needs to. Good analysis at this stage sets the foundation for a successful project.</p>
+<div class="admonition summary">
+<p class="admonition-title">Summary</p>
+<p>During analysis, you identify who will use the database and what they need it to do. End-user requirements describe the tasks users want to complete, while functional requirements describe the tables, fields, keys, and actions the database must include.</p>
+</div>
 
 
 

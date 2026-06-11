@@ -68,3 +68,69 @@ table.ascii-table th[scope="rowgroup"] {
   background-color: rgba(31, 92, 163, 0.16);
   color: #184a82;
 }
+
+.requirements-lists {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(8.5rem, 1fr));
+  gap: 0.55rem;
+  margin: 0.85rem 0 1.4rem;
+}
+
+.requirements-list {
+  border: 1px solid var(--md-default-fg-color);
+  background-color: var(--md-default-bg-color);
+}
+
+.requirements-list h3 {
+  position: relative;
+  margin: 0;
+  padding: 0.2rem 0.45rem 0.2rem 1.25rem;
+  border-bottom: 1px solid var(--md-default-fg-color);
+  font-size: 0.74rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.requirements-list h3 span {
+  position: absolute;
+  top: 0.38rem;
+  left: 0.4rem;
+  width: 0.35rem;
+  height: 0.35rem;
+  border: 1px solid var(--md-default-fg-color);
+}
+
+.requirements-list h3 span::before {
+  position: absolute;
+  top: 0.08rem;
+  left: 0.06rem;
+  width: 0.2rem;
+  border-top: 1px solid var(--md-default-fg-color);
+  content: "";
+}
+
+.requirements-list ul {
+  margin: 0;
+  padding: 0.25rem 0;
+  list-style: none;
+}
+
+.requirements-list li {
+  margin: 0;
+  padding: 0.16rem 0.45rem;
+  font-size: 0.72rem;
+  line-height: 1.25;
+}
+
+@media screen and (max-width: 59.9375em) {
+  .requirements-lists {
+    grid-template-columns: repeat(2, minmax(9rem, 1fr));
+  }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .requirements-lists {
+    grid-template-columns: 1fr;
+  }
+}
