@@ -27,7 +27,9 @@ nav:
         - Foreign Keys: '3.1.6-foreign-keys.md'
         - How Tables Link: '3.1.7-how-tables-link.md'
         - Tasks: '3.1.8-database-structure-tasks.md'
-      - Analysis: '3.2-analysis.md'
+      - Analysis:
+        - Explanation: '3.2-analysis.md'
+        - Tasks: '3.2.1-analysis-tasks.md'
       - Implementation:
         - SQL Select: 
           - Explanation: '3.4.1-sql-select.md'
