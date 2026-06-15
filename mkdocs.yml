@@ -1,8 +1,5 @@
 site_name: National 5 Computer Science
 
-exclude_docs: |
-  01-sdd/1.3-design/5.0_index copy.md
-
 nav:
   - Home: 'index.md'
   - Software Design and Development:
@@ -11,48 +8,65 @@ nav:
       - Explanation: '01-sdd/1.2-analysis/1.2-analysis.md'
       - Tasks: '01-sdd/1.2-analysis/1.2.1-analysis-tasks.md'
     - Design:
-      - Overview: '01-sdd/1.3-design/5.0_index.md'
-      - Data Types and Structures: '01-sdd/1.3-design/5.1_Data_Types_and_Structures.md'
-      - Structure Diagrams: '01-sdd/1.3-design/5.2_Structure_Diagrams.md'
-      - Flowcharts: '01-sdd/1.3-design/5.3_Flowcharts.md'
-      - Pseudocode: '01-sdd/1.3-design/5.4_Pseudocode.md'
+      - Explanation: '01-sdd/1.3-design/1.3.1-explanation.md'
+      - Data Types and Structures:
+        - Explanation: '01-sdd/1.3-design/1.3.2-data-types-and-structures.md'
+        - Tasks: '01-sdd/1.3-design/1.3.2.1-data-types and-structures-tasks.md'
+      # - Structure Diagrams:
+      #   - Explanation: '01-sdd/1.3-design/1.3.3-structure-diagrams.md'
+      #   - Sequencing: '01-sdd/1.3-design/1.3.3.1-sequencing.md'
+      #   - Loops: '01-sdd/1.3-design/1.3.3.2-loops.md'
+      #   - Selection: '01-sdd/1.3-design/1.3.3.3-selection.md'
+      # - Flowcharts:
+      #   - Explanation: '01-sdd/1.3-design/1.3.4-flowcharts.md'
+      #   - Sequencing: '01-sdd/1.3-design/1.3.4.1-sequencing.md'
+      #   - Selection: '01-sdd/1.3-design/1.3.4.2-selection.md'
+      #   - Loops: '01-sdd/1.3-design/1.3.4.3-loops.md'
+      # - Pseudocode:
+      #   - Explanation: '01-sdd/1.3-design/1.3.5-pseudocode.md'
+      #   - Sequencing: '01-sdd/1.3-design/1.3.5.1-sequencing.md'
+      #   - Selection: '01-sdd/1.3-design/1.3.5.2-selection.md'
+      #   - Loops: '01-sdd/1.3-design/1.3.5.3-loops.md'
+      # - Wireframes: '01-sdd/1.3-design/1.3.6-wireframes.md'
   - Computer Systems:
-    - Number Representation:
-      - Understanding Binary: '02-cs/2.1-number-representation.md'
-      - Binary to Decimal Conversion: '02-cs/2.1.1-binary-to-decimal.md'
-      - Decimal to Binary Conversion: '02-cs/2.1.2-decimal-to-binary.md'
+    - Data Representation:
+      - Understanding Binary: '02-cs/2.1-data-representation/2.1-number-representation.md'
+      - Binary to Decimal Conversion: '02-cs/2.1-data-representation/2.1.1-binary-to-decimal.md'
+      - Decimal to Binary Conversion: '02-cs/2.1-data-representation/2.1.2-decimal-to-binary.md'
       - ASCII:
-        - Explanation: '02-cs/2.1.3-ascii.md'
-        - Tasks: '02-cs/2.1.3.1-ascii-tasks.md'
+        - Explanation: '02-cs/2.1-data-representation/2.1.3-ascii.md'
+        - Tasks: '02-cs/2.1-data-representation/2.1.3.1-ascii-tasks.md'
   - Database Design and Development:
     - Database Structure:
-      - What Makes a Database?: '03-ddd/01-databse-structure/3.1-database-structure.md'
-      - Relational Databases: '03-ddd/01-databse-structure/3.1.1-relational-databases.md'
-      - Entities: '03-ddd/01-databse-structure/3.1.2-entities.md'
-      - Attributes: '03-ddd/01-databse-structure/3.1.3-attributes.md'
-      - Field Types: '03-ddd/01-databse-structure/3.1.4-field-types.md'
-      - Primary Keys: '03-ddd/01-databse-structure/3.1.5-primary-keys.md'
-      - Foreign Keys: '03-ddd/01-databse-structure/3.1.6-foreign-keys.md'
-      - How Tables Link: '03-ddd/01-databse-structure/3.1.7-how-tables-link.md'
-      - Tasks: '03-ddd/01-databse-structure/3.1.8-database-structure-tasks.md'
+      - What Makes a Database?: '03-ddd/3.1-databse-structure/3.1.1-database-structure.md'
+      - Relational Databases: '03-ddd/3.1-databse-structure/3.1.2-relational-databases.md'
+      - Entities: '03-ddd/3.1-databse-structure/3.1.3-entities.md'
+      - Attributes: '03-ddd/3.1-databse-structure/3.1.4-attributes.md'
+      - Field Types: '03-ddd/3.1-databse-structure/3.1.5-field-types.md'
+      - Primary Keys: '03-ddd/3.1-databse-structure/3.1.6-primary-keys.md'
+      - Foreign Keys: '03-ddd/3.1-databse-structure/3.1.7-foreign-keys.md'
+      - How Tables Link: '03-ddd/3.1-databse-structure/3.1.8-how-tables-link.md'
+      - Tasks: '03-ddd/3.1-databse-structure/3.1.9-database-structure-tasks.md'
     - Analysis:
-      - Explanation: '03-ddd/02-analysis/3.2-analysis.md'
-      - Tasks: '03-ddd/02-analysis/3.2.1-analysis-tasks.md'
+      - Explanation: '03-ddd/3.2-analysis/3.2-analysis.md'
+      - Tasks: '03-ddd/3.2-analysis/3.2.1-analysis-tasks.md'
     - Design:
-      - Query Design: '03-ddd/03-design/3.3-Query-Design.md'
-      - General Data Protection Regulation: '03-ddd/03-design/3.3.4-General-Data-Protection-Regulation.md'
+      - Data Dictionaries: '03-ddd/3.3-design/3.3.1-Data-Dictionaries.md'
+      - Database Relationships: '03-ddd/3.3-design/3.3.2-db-relationships.md'
+      - Query Design: '03-ddd/3.3-design/3.3.3-query-design.md'
+      - General Data Protection Regulation: '03-ddd/3.3-design/3.3.4-general-data-protection-regulation.md'
     - Implementation:
       - SQL Select:
-        - Explanation: '03-ddd/04-implementation/3.4.1-sql-select.md'
-        - Tasks: '03-ddd/04-implementation/3.4.1.1-select-tasks.md'
+        - Explanation: '03-ddd/3.4-implementation/3.4.1-sql-select.md'
+        - Tasks: '03-ddd/3.4-implementation/3.4.1.1-select-tasks.md'
       - SQL Insert/Update/Delete:
-        - Explanation: '03-ddd/04-implementation/3.4.2-sql-insert.md'
-        - Tasks: '03-ddd/04-implementation/3.4.2.1-insert-update-delete-tasks.md'
-      - SQL Equi-Joins: '03-ddd/04-implementation/3.4.3-sql-equi-joins.md'
+        - Explanation: '03-ddd/3.4-implementation/3.4.2-sql-insert.md'
+        - Tasks: '03-ddd/3.4-implementation/3.4.2.1-insert-update-delete-tasks.md'
+      - SQL Equi-Joins: '03-ddd/3.4-implementation/3.4.3-sql-equi-joins.md'
       - SQL Practice Tasks:
-        - Select/From/Where: '03-ddd/04-implementation/3.4.4.1-select-from-where-tasks.md'
-    - Testing: '03-ddd/05-testing/3.5-DB-Testing.md'
-    - Evaluation: '03-ddd/06-evaluation/3.6-DB-Evaluation.md'
+        - Select/From/Where: '03-ddd/3.4-implementation/3.4.4.1-select-from-where-tasks.md'
+    - Testing: '03-ddd/3.5-testing/3.5.1-db-testing.md'
+    - Evaluation: '03-ddd/3.6-evaluation/3.6.1-db-evaluation.md'
 
       
 markdown_extensions:
