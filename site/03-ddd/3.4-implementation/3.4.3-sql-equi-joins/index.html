@@ -12,7 +12,7 @@
         <link rel="prev" href="../3.4.2.1-insert-update-delete-tasks/">
       
       
-        <link rel="next" href="../3.4.4.1-select-from-where-tasks/">
+        <link rel="next" href="../3.4.4-equi-join-tasks/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>SQL Equi-Joins - National 5 Computer Science</title>
+        <title>Explanation - National 5 Computer Science</title>
       
     
     
@@ -175,7 +175,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SQL Equi-Joins
+              Explanation
             
           </span>
         </div>
@@ -2178,10 +2178,70 @@
   
   
   
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_4_3" id="__nav_4_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SQL Equi-Joins
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_4_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    SQL Equi-Joins
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
+      
+        
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
@@ -2191,7 +2251,7 @@
   <span class="md-ellipsis">
     
   
-    SQL Equi-Joins
+    Explanation
   
 
     
@@ -2209,7 +2269,7 @@
   <span class="md-ellipsis">
     
   
-    SQL Equi-Joins
+    Explanation
   
 
     
@@ -2225,6 +2285,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -2233,10 +2295,87 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#sql-equi-join-operations" class="md-nav__link">
+  <a href="#what-is-an-equi-join" class="md-nav__link">
     <span class="md-ellipsis">
       
-        SQL Equi-Join Operations
+        What Is An Equi-Join?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#before-the-sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Before The SQL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equi-join-syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equi-Join Syntax
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Tables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equi-join-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equi-Join Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-the-query-step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reading The Query Step By Step
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selecting-specific-fields" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selecting Specific Fields
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
       
     </span>
   </a>
@@ -2246,6 +2385,42 @@
     </ul>
   
 </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.4.4-equi-join-tasks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tasks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -2430,6 +2605,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -2438,10 +2615,87 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#sql-equi-join-operations" class="md-nav__link">
+  <a href="#what-is-an-equi-join" class="md-nav__link">
     <span class="md-ellipsis">
       
-        SQL Equi-Join Operations
+        What Is An Equi-Join?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#before-the-sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Before The SQL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equi-join-syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equi-Join Syntax
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Tables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equi-join-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Equi-Join Example
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-the-query-step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reading The Query Step By Step
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selecting-specific-fields" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selecting Specific Fields
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
       
     </span>
   </a>
@@ -2537,6 +2791,24 @@
   
 
       
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    SQL Equi-Joins
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
     </ol>
   </nav>
 
@@ -2547,60 +2819,295 @@
 
 
 
-  <h1>SQL Equi-Joins</h1>
-
-<h2 id="sql-equi-join-operations">SQL Equi-Join Operations</h2>
-<p>You can use SQL to perform a query to show information from multiple tables where there is matching data using an equi-join to show <code>guidance</code> and <code>pupil information</code> together. The syntax can be seen below:</p>
-<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Equi-Join Syntax</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<h1 id="sql-equi-join-operations">SQL Equi-Join Operations</h1>
+<div class="admonition info">
+<p class="admonition-title">What You Need to Know</p>
+<p>For National 5 Computing Science, you should be able to:</p>
+<ul>
+<li>Use an equi-join to retrieve data from two related tables.</li>
+<li>Identify the matching fields used to join two tables.</li>
+<li>Understand that an equi-join uses a <code>WHERE</code> clause.</li>
+<li>Explain how records are matched using equal values in both tables.</li>
+<li>Recognise primary key and foreign key fields in a join.</li>
+</ul>
+</div>
+<hr />
+<h2 id="what-is-an-equi-join">What Is An Equi-Join?</h2>
+<p>An equi-join is used to display data from two related tables in one query.</p>
+<p>The tables are joined using fields that contain matching values.</p>
+<p>For example, a <code>Pupils</code> table might store pupil details, and a <code>Guidance</code> table might store guidance teacher details.</p>
+<p>If both tables contain a <code>House</code> field, SQL can use that field to match the correct pupils with the correct guidance teacher.</p>
+<p>At National 5, an equi-join is written using:</p>
+<ul>
+<li><code>SELECT</code></li>
+<li><code>FROM</code></li>
+<li><code>WHERE</code></li>
+</ul>
+<p>The <code>WHERE</code> clause is used to show which fields must match.</p>
+<hr />
+<h2 id="before-the-sql">Before The SQL</h2>
+<p>Before writing an equi-join, it helps to remember the database words.</p>
+<table>
+<thead>
+<tr>
+<th>Word</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entity</td>
+<td>A table in the database</td>
+</tr>
+<tr>
+<td>Attribute</td>
+<td>A field or column in a table</td>
+</tr>
+<tr>
+<td>Record</td>
+<td>One row of data in a table</td>
+</tr>
+<tr>
+<td>Primary key</td>
+<td>A field that uniquely identifies a record</td>
+</tr>
+<tr>
+<td>Foreign key</td>
+<td>A field that links to a primary key in another table</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>In a <code>Pupils</code> table:</p>
+<ul>
+<li>the entity is <code>Pupils</code></li>
+<li><code>Forename</code>, <code>Surname</code> and <code>House</code> are attributes</li>
+<li>one pupil's details make one record</li>
+</ul>
+</div>
+<p>When joining tables, look for an attribute that appears in both tables or links the two tables together.</p>
+<p>This is the matching field.</p>
+<hr />
+<h2 id="equi-join-syntax">Equi-Join Syntax</h2>
+<div class="language-sql highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Equi-Join Syntax</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
 <span class="normal"><a href="#__codelineno-0-2">2</a></span>
-<span class="normal"><a href="#__codelineno-0-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a>SELECT *
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>FROM entity1,entity2
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a>WHERE entity1.column1 = entity2.column1;
+<span class="normal"><a href="#__codelineno-0-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">entity1</span><span class="p">,</span><span class="w"> </span><span class="n">entity2</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">entity1</span><span class="p">.</span><span class="n">column1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entity2</span><span class="p">.</span><span class="n">column1</span><span class="p">;</span>
 </span></code></pre></div></td></tr></table></div>
-<p>Below is a separate entity/table for guidance staff information. </p>
+<p>In this syntax:</p>
+<ul>
+<li><code>entity1</code> is the first table.</li>
+<li><code>entity2</code> is the second table.</li>
+<li><code>column1</code> is the matching field.</li>
+<li>The field on the left of the equals sign comes from one table.</li>
+<li>The field on the right of the equals sign comes from the other table.</li>
+</ul>
+<p>Only records with matching values will be displayed.</p>
+<hr />
+<h2 id="example-tables">Example Tables</h2>
+<p>The <code>Guidance</code> table stores information about guidance teachers.</p>
 <p><mark>Entity = Guidance</mark></p>
 <table>
-  <tr>
-    <th>EmployeeNum</th>
-    <th>Title</th>
-    <th>Surname</th>
-    <th>House</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Mr</td>
-    <td>Stewart</td>
-    <td>Nevis</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Miss</td>
-    <td>Kelly</td>
-    <td>Locheil</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Mr</td>
-    <td>Macdonald</td>
-    <td>Rannoch</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Mrs</td>
-    <td>Jordan</td>
-    <td>Shiel</td>
-  </tr>
+<thead>
+<tr>
+<th>EmployeeNum</th>
+<th>Title</th>
+<th>Surname</th>
+<th>House</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Mr</td>
+<td>Stewart</td>
+<td>Nevis</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Miss</td>
+<td>Kelly</td>
+<td>Lochiel</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Mr</td>
+<td>Macdonald</td>
+<td>Rannoch</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Mrs</td>
+<td>Jordan</td>
+<td>Shiel</td>
+</tr>
+</tbody>
 </table>
-
-<p>The entity relationship diagram above explains the relationship between the guidance and pupils entities. One guidance teacher can have many pupils to support. The matching data and relationship between these tables/entities is the house field.</p>
-<p>We can use an equi-join to display the pupils and guidance information together. </p>
-<div class="language-sql highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Equi-Joins</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<p>The <code>House</code> field is an attribute in the <code>Guidance</code> table.</p>
+<p>The <code>Pupils</code> table also contains a <code>House</code> attribute.</p>
+<p><mark>Entity = Pupils</mark></p>
+<table>
+<thead>
+<tr>
+<th>StudentNum</th>
+<th>Forename</th>
+<th>Surname</th>
+<th>House</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Amy</td>
+<td>Smith</td>
+<td>Nevis</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ben</td>
+<td>Campbell</td>
+<td>Lochiel</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Cara</td>
+<td>Fraser</td>
+<td>Rannoch</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Daniel</td>
+<td>Brown</td>
+<td>Nevis</td>
+</tr>
+</tbody>
+</table>
+<p>The two tables can be linked because both entities store house names.</p>
+<ul>
+<li>One guidance teacher is responsible for many pupils.</li>
+<li>Each pupil belongs to one house.</li>
+<li>The <code>House</code> attribute contains matching values in both tables.</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">How To Spot The Matching Field</p>
+<p>Ask yourself:</p>
+<ul>
+<li>Which attribute appears in both tables?</li>
+<li>Which values are repeated in both tables?</li>
+<li>Which field links the records together?</li>
+</ul>
+</div>
+<hr />
+<h2 id="equi-join-example">Equi-Join Example</h2>
+<p>The following query displays pupil and guidance information together.</p>
+<div class="language-sql highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Join Pupils And Guidance</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
 <span class="normal"><a href="#__codelineno-1-2">2</a></span>
-<span class="normal"><a href="#__codelineno-1-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">Pupils</span><span class="p">,</span><span class="n">Guidance</span>
+<span class="normal"><a href="#__codelineno-1-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">Pupils</span><span class="p">,</span><span class="w"> </span><span class="n">Guidance</span>
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">Pupils</span><span class="p">.</span><span class="n">House</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Guidance</span><span class="p">.</span><span class="n">House</span><span class="p">;</span>
 </span></code></pre></div></td></tr></table></div>
-<p>The above SQL would select all the information from the Pupils table and join it with the Guidance table. It would join the records where the house attribute on the guidance and pupils table match. </p>
+<p>This query selects all fields from both tables.</p>
+<p>The most important line is the condition:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">Pupils</span><span class="p">.</span><span class="n">House</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Guidance</span><span class="p">.</span><span class="n">House</span>
+</span></code></pre></div>
+<p>matches records where the pupil's house is the same as the guidance teacher's house.</p>
+<p>For example, a pupil in <code>Nevis</code> would be matched with Mr Stewart because both records contain the value <code>Nevis</code> in the <code>House</code> field.</p>
+<hr />
+<h2 id="reading-the-query-step-by-step">Reading The Query Step By Step</h2>
+<table>
+<thead>
+<tr>
+<th>SQL Line</th>
+<th>What It Does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SELECT *</code></td>
+<td>Display all attributes from the joined records</td>
+</tr>
+<tr>
+<td><code>FROM Pupils, Guidance</code></td>
+<td>Use the <code>Pupils</code> and <code>Guidance</code> entities</td>
+</tr>
+<tr>
+<td><code>WHERE Pupils.House = Guidance.House</code></td>
+<td>Match records where the <code>House</code> values are equal</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Key Idea</p>
+<p>The equals sign in an equi-join does not mean "store this value".</p>
+<p>It means "only show records where these two values match".</p>
+</div>
+<hr />
+<h2 id="selecting-specific-fields">Selecting Specific Fields</h2>
+<p>You do not always need to display every field.</p>
+<p>You can choose only the fields needed in the output.</p>
+<div class="language-sql highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Select Specific Fields</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
+<span class="normal"><a href="#__codelineno-3-2">2</a></span>
+<span class="normal"><a href="#__codelineno-3-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="k">SELECT</span><span class="w"> </span><span class="n">Pupils</span><span class="p">.</span><span class="n">Forename</span><span class="p">,</span><span class="w"> </span><span class="n">Pupils</span><span class="p">.</span><span class="n">Surname</span><span class="p">,</span><span class="w"> </span><span class="n">Guidance</span><span class="p">.</span><span class="n">Title</span><span class="p">,</span><span class="w"> </span><span class="n">Guidance</span><span class="p">.</span><span class="n">Surname</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="k">FROM</span><span class="w"> </span><span class="n">Pupils</span><span class="p">,</span><span class="w"> </span><span class="n">Guidance</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">Pupils</span><span class="p">.</span><span class="n">House</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Guidance</span><span class="p">.</span><span class="n">House</span><span class="p">;</span>
+</span></code></pre></div></td></tr></table></div>
+<p>This would display:</p>
+<ul>
+<li>the pupil's forename</li>
+<li>the pupil's surname</li>
+<li>the guidance teacher's title</li>
+<li>the guidance teacher's surname</li>
+</ul>
+<p>Using the table name before the attribute name makes it clear which table the attribute comes from.</p>
+<div class="admonition tip">
+<p class="admonition-title">Exam Tip</p>
+<p>When identifying an equi-join, look for a <code>WHERE</code> condition that compares a field from one table with a matching field from another table.</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">WHERE</span><span class="w"> </span><span class="n">Pupils</span><span class="p">.</span><span class="n">House</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Guidance</span><span class="p">.</span><span class="n">House</span><span class="p">;</span>
+</span></code></pre></div>
+</div>
+<hr />
+<h2 id="summary">Summary</h2>
+<table>
+<thead>
+<tr>
+<th>SQL Feature</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SELECT</code></td>
+<td>Chooses the fields to display</td>
+</tr>
+<tr>
+<td><code>FROM</code></td>
+<td>Names the tables being used</td>
+</tr>
+<tr>
+<td><code>WHERE</code></td>
+<td>Gives the matching condition</td>
+</tr>
+<tr>
+<td><code>=</code></td>
+<td>Matches equal values in both tables</td>
+</tr>
+<tr>
+<td>Entity</td>
+<td>A table used in the query</td>
+</tr>
+<tr>
+<td>Attribute</td>
+<td>A field used in the query</td>
+</tr>
+<tr>
+<td>Equi-join</td>
+<td>Combines records from related tables</td>
+</tr>
+</tbody>
+</table>
+<p>Equi-joins are used when information is stored across more than one related table.</p>
 
 
 

@@ -62,7 +62,9 @@ nav:
       - SQL Insert/Update/Delete:
         - Explanation: '03-ddd/3.4-implementation/3.4.2-sql-insert.md'
         - Tasks: '03-ddd/3.4-implementation/3.4.2.1-insert-update-delete-tasks.md'
-      - SQL Equi-Joins: '03-ddd/3.4-implementation/3.4.3-sql-equi-joins.md'
+      - SQL Equi-Joins:
+        - Explanation: '03-ddd/3.4-implementation/3.4.3-sql-equi-joins.md'
+        - Tasks: '03-ddd/3.4-implementation/3.4.4-equi-join-tasks.md'
       - SQL Practice Tasks:
         - Select/From/Where: '03-ddd/3.4-implementation/3.4.4.1-select-from-where-tasks.md'
     - Testing: '03-ddd/3.5-testing/3.5.1-db-testing.md'
