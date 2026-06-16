@@ -23,6 +23,52 @@ table.ipo-table td {
   height: 2.5rem;
 }
 
+table.data-type-table {
+  width: 100%;
+  table-layout: fixed;
+  margin: 0.85rem 0 1.4rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.35rem;
+  overflow: hidden;
+}
+
+table.data-type-table th,
+table.data-type-table td {
+  padding: 0.55rem 0.65rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+table.data-type-table th {
+  background-color: var(--md-default-fg-color--lightest);
+  border-bottom: 1px solid var(--md-default-fg-color--lighter);
+  font-weight: 700;
+}
+
+table.data-type-table td {
+  height: 2.8rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+table.data-type-table tr:last-child td {
+  border-bottom: 0;
+}
+
+table.data-type-table th + th,
+table.data-type-table td + td {
+  border-left: 1px solid var(--md-default-fg-color--lightest);
+}
+
+table.data-type-table--example tbody tr {
+  background-color: rgba(31, 92, 163, 0.08);
+}
+
+table.data-type-table--example td {
+  border-bottom-color: rgba(31, 92, 163, 0.22);
+}
+
 table.ascii-table {
   width: 100%;
   margin: 1rem 0 2rem;
