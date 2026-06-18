@@ -12,7 +12,7 @@
         <link rel="prev" href="../../3.1-databse-structure/3.1.9-database-structure-tasks/">
       
       
-        <link rel="next" href="../3.2.1-analysis-tasks/">
+        <link rel="next" href="../3.2.1-worked-example/">
       
       
         
@@ -1583,6 +1583,8 @@
       
         
       
+        
+      
     
     
     
@@ -1693,10 +1695,21 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#end-user-requiremnts-and-functional-requirements" class="md-nav__link">
+  <a href="#end-user-requirements-and-functional-requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        End-user Requiremnts and Functional Requirements
+        End-user Requirements and Functional Requirements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-to-look-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to Look For
       
     </span>
   </a>
@@ -1707,6 +1720,34 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.2.1-worked-example/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Worked Example
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -2808,10 +2849,21 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#end-user-requiremnts-and-functional-requirements" class="md-nav__link">
+  <a href="#end-user-requirements-and-functional-requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        End-user Requiremnts and Functional Requirements
+        End-user Requirements and Functional Requirements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-to-look-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to Look For
       
     </span>
   </a>
@@ -2922,102 +2974,74 @@
 </div>
 <p>When designing a database, it's important to understand what the people using the system need it to do. This means identifying:</p>
 <ul>
-<li><strong>End-user requirements</strong> – what the users want to be able to do with the database</li>
-<li><strong>Functional requirements</strong> – what the database must include and be able to do</li>
+<li><strong>End-user requirements</strong> – the tasks users need to complete</li>
+<li><strong>Functional requirements</strong> – the data, tables, keys, relationships and actions the database needs so those tasks can happen</li>
 </ul>
-<p>We will use a <strong>School Library</strong> example to help explain these ideas.</p>
-<h2 id="end-user-requiremnts-and-functional-requirements">End-user Requiremnts and Functional Requirements</h2>
-<p>Before creating a database, we must find out what the people who will use it want it to do. These are called the <strong>end-user requirements</strong>:</p>
+<h2 id="end-user-requirements-and-functional-requirements">End-user Requirements and Functional Requirements</h2>
+<p>Before creating a database, we must find out what the people who will use it need to do. These are called the <strong>end-user requirements</strong>:</p>
 <ul>
-<li>the users are the people who are going to be using the database </li>
-<li>their requirements are the tasks they expect to be able to do using the database </li>
+<li>the users are the people who will use the database</li>
+<li>their requirements are the tasks they expect to complete using the database</li>
+<li>these are usually written from the user's point of view</li>
 </ul>
-<p>We also need to know what the database itself must include and be able to do to meet those needs — these are the <strong>functional requirements</strong>:</p>
+<p>We also need to identify what the database must contain and do to make these tasks possible. These are the <strong>functional requirements</strong>:</p>
 <ul>
-<li>processes and activities that the system has to perform  </li>
-<li>information that the system has to contain to be able to carry out its functions </li>
+<li>the entities, attributes, primary keys and foreign keys needed in the database</li>
+<li>the searches, sorts and calculations the system must carry out</li>
+<li>these are usually written from the designer's point of view</li>
 </ul>
-<p>During the analysis stage of Database Development, you will need to identify the following requirements:</p>
-<p>These requirements help:  </p>
+<p>The difference can feel subtle at first:</p>
+<table>
+<thead>
+<tr>
+<th>Requirement type</th>
+<th>Focus</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>End-user requirement</td>
+<td>What the user needs to do</td>
+<td>A user needs to search for a record <strong>(one complete row of information in a table)</strong>.</td>
+</tr>
+<tr>
+<td>Functional requirement</td>
+<td>What the database needs to store or do</td>
+<td>The database must include fields <strong>(single pieces of information in a table)</strong> that can be searched.</td>
+</tr>
+</tbody>
+</table>
+<p>During the analysis stage of Database Development, identifying these requirements helps to:</p>
 <ul>
 <li>clarify the design of the database </li>
-<li>identify the features to be implemented on the database  </li>
+<li>identify the features that need to be implemented</li>
 <li>evaluate whether the system is fit for purpose after development is complete</li>
 </ul>
-<p><strong>Example</strong></p>
-<p>A secondary school wants to create a database to keep track of its library books, the pupils who borrow them, and the borrowing history.</p>
-<p>The database will help school staff manage books and allow pupils to search for and borrow books.</p>
-<p>The database will have the following tables:</p>
-<ol>
-<li><strong>Book</strong> – to store details of books in the library  </li>
-<li><strong>Pupil</strong> – to store details of pupils who borrow books  </li>
-<li><strong>Loan</strong> – to store details of which books have been borrowed and returned</li>
-</ol>
-<p><strong>End-User Requirements</strong></p>
-<p>Remember, these are the things the users of the database need it to do. In this case, the users are the library staff and pupils.</p>
-<p>The database should be able to:</p>
-<ul>
-<li>Search for books by title, author, or genre</li>
-<li>See if a book is available or already on loan</li>
-<li>View a list of books a pupil has borrowed</li>
-<li>Check which books are overdue</li>
-<li>Sort books by title or date added</li>
-</ul>
+<h2 id="what-to-look-for">What to Look For</h2>
+<p>For a National 5 database question, end-user requirements are often found in comments from the people who will use the database.</p>
 <div class="admonition tip">
 <p class="admonition-title">Top Tip</p>
-<p>Think about what the users need the database to do — what tasks will help them?</p>
+<p>For end-user requirements, look for phrases such as "I need to..." or "The user needs to be able to...".</p>
 </div>
-<p><strong>Functional Requirements</strong></p>
-<p>Remember, these describe what the database must contain and what it must do to meet the needs of the users.</p>
-<p>The database will include three tables: Book, Pupil, and Loan.</p>
-<p>Each table needs a <strong>primary key</strong> – a unique ID to identify each record. The Loan table will also need <strong>foreign keys</strong> to link to the Book and Pupil tables.</p>
-<p>In addition to a primary key and any necessary foreign keys, the following fields are required:</p>
-<div class="requirements-lists">
-  <section class="requirements-list">
-    <h3><span aria-hidden="true"></span>Book</h3>
-    <ul>
-      <li>Book ID (primary key)</li>
-      <li>Title</li>
-      <li>Author</li>
-      <li>Genre</li>
-      <li>Year Published</li>
-      <li>Available (Yes/No)</li>
-    </ul>
-  </section>
-  <section class="requirements-list">
-    <h3><span aria-hidden="true"></span>Pupil</h3>
-    <ul>
-      <li>Pupil ID (primary key)</li>
-      <li>First Name</li>
-      <li>Surname</li>
-      <li>Class</li>
-    </ul>
-  </section>
-  <section class="requirements-list">
-    <h3><span aria-hidden="true"></span>Loan</h3>
-    <ul>
-      <li>Loan ID (primary key)</li>
-      <li>Book ID (foreign key)</li>
-      <li>Pupil ID (foreign key)</li>
-      <li>Date Borrowed</li>
-      <li>Date Returned</li>
-    </ul>
-  </section>
-</div>
-
-<p><mark><strong>The database must also be able to:</strong></mark></p>
+<p>Functional requirements describe how the database will support these tasks. This usually means identifying:</p>
 <ul>
-<li><mark>Search books by title, author, or genre</mark></li>
-<li><mark>Sort results alphabetically or by date</mark></li>
-<li><mark>Check if a book is available</mark></li>
-<li><mark>List all books borrowed by a pupil</mark></li>
-<li><mark>Identify overdue books</mark></li>
+<li>suitable entities or tables <strong>(the main things the database stores, such as books or pupils)</strong></li>
+<li>attributes or fields for each table <strong>(the details stored about each thing, such as title or surname)</strong></li>
+<li>primary keys <strong>(a unique ID for each record)</strong></li>
+<li>foreign keys used to link related tables <strong>(IDs that connect records in different tables)</strong></li>
+<li>searches, sorts or other actions the database must perform <strong>(what the database has to do with the stored data)</strong></li>
+</ul>
+<p>Some actions may look similar to the end-user requirements. The difference is the viewpoint:</p>
+<ul>
+<li>an <strong>end-user requirement</strong> says what a person needs to do</li>
+<li>a <strong>functional requirement</strong> says what the database must store, link, search, sort or calculate to make that task possible</li>
 </ul>
 <hr />
-<p>By clearly identifying the end-user and functional requirements, you can make sure your database is designed with the right users and tasks in mind. This helps avoid problems later in development and ensures the final system does exactly what it needs to. Good analysis at this stage sets the foundation for a successful project.</p>
+<p>By clearly identifying both types of requirement, you can make sure your database is designed with the right users, data and tasks in mind. This helps avoid problems later in development and makes it easier to check whether the finished database is fit for purpose.</p>
 <div class="admonition summary">
 <p class="admonition-title">Summary</p>
-<p>During analysis, you identify who will use the database and what they need it to do. End-user requirements describe the tasks users want to complete, while functional requirements describe the tables, fields, keys, and actions the database must include.</p>
+<p>During analysis, you identify who will use the database and what they need to do. End-user requirements describe the tasks users want to complete. Functional requirements describe the tables, fields, keys, relationships and actions the database must include to make those tasks possible.</p>
 </div>
 
 

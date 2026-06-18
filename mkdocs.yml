@@ -49,6 +49,7 @@ nav:
       - Tasks: '03-ddd/3.1-databse-structure/3.1.9-database-structure-tasks.md'
     - Analysis:
       - Explanation: '03-ddd/3.2-analysis/3.2-analysis.md'
+      - Worked Example: '03-ddd/3.2-analysis/3.2.1-worked-example.md'
       - Tasks: '03-ddd/3.2-analysis/3.2.1-analysis-tasks.md'
     - Design:
       - Data Dictionaries:
