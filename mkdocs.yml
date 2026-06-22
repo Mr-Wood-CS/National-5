@@ -14,7 +14,9 @@ nav:
         - Tasks: '01-sdd/1.3-design/1.3.2.1-data-types and-structures-tasks.md'
       - Design Notation:
         - Explanation: '01-sdd/1.3-design/1.3.3-design-notation-explanation.md'
-        - Sequencing: '01-sdd/1.3-design/1.3.3.1-sequencing.md'
+        - Sequencing:
+          - Explanation: '01-sdd/1.3-design/1.3.3.1-sequencing.md'
+          - Tasks: '01-sdd/1.3-design/1.3.3.1.1-sequencing-tasks.md'
         #- Selection: '01-sdd/1.3-design/1.3.3.2-selection.md'
         #- Iteration: '01-sdd/1.3-design/1.3.3.3-iteration.md'
       # - Wireframes: '01-sdd/1.3-design/1.3.6-wireframes.md'
@@ -126,14 +128,12 @@ theme:
     - navigation.path
     #- navigation.footer
     - navigation.tabs
-#plugins:
-  #- glightbox
+plugins:
+  - search
+  - glightbox
 
 copyright: Copyright &copy; 2025 Pixel&Wood Computer Science Tuition
 
 extra_css:
   - Styles/extra.css
-
-extra_javascript:
-  - scripts/extra.js
     

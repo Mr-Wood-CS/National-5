@@ -1,0 +1,19 @@
+<mxfile host="65bd71144e">
+  <diagram id="sequencing-pseudocode" name="Sequencing - Pseudocode">
+    <mxGraphModel dx="587" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pc-title" value="Sequencing in Pseudocode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="40" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-block" value="Main Steps&#10;&#10;1 Enter item price&#10;2 Enter quantity&#10;3 Calculate total cost&#10;4 Display total cost&#10;&#10;Refinements&#10;&#10;1.1 itemPrice = input&#10;2.1 quantity = input&#10;3.1 totalCost = itemPrice * quantity&#10;4.1 display totalCost" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=17;fontFamily=Courier New;align=left;verticalAlign=top;spacing=18;" parent="1" vertex="1">
+          <mxGeometry x="230" y="130" width="700" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-note" value="Read from top to bottom.&#10;Each step happens once, in order.&#10;There is no decision and no repetition." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=16;spacing=12;" parent="1" vertex="1">
+          <mxGeometry x="330" y="540" width="500" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
