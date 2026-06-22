@@ -1,0 +1,125 @@
+<mxfile host="app.diagrams.net" modified="2026-06-22T11:40:00.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="sequencing-structure-diagram" name="Sequencing - Structure Diagram">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sd-title" value="Sequencing in a Structure Diagram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="660" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sd-main" value="Calculate Total Cost" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="455" y="120" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sd-task1" value="Enter Item Price" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sd-task2" value="Enter Quantity" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sd-task3" value="Calculate Total" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="610" y="280" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sd-task4" value="Display Total" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="860" y="280" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sd-note" value="Read the sub-tasks from left to right.&#xa;Each task happens once, in order." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=16;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sd-edge-main" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="sd-main" target="sd-task2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sd-edge-task1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="sd-main" target="sd-task1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sd-edge-task3" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="sd-main" target="sd-task3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sd-edge-task4" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="sd-main" target="sd-task4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sequencing-flowchart" name="Sequencing - Flowchart">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fc-title" value="Sequencing in a Flowchart" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-start" value="Start" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-price" value="Enter item price" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="475" y="200" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-quantity" value="Enter quantity" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="475" y="305" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-calculate" value="totalCost = itemPrice * quantity" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="450" y="410" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-display" value="Display totalCost" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="475" y="515" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-stop" value="Stop" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="620" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-note" value="The arrows move straight from one step to the next.&#xa;There are no branches and no loops." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=16;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="750" y="305" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-e1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="fc-start" target="fc-price">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-e2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="fc-price" target="fc-quantity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-e3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="fc-quantity" target="fc-calculate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-e4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="fc-calculate" target="fc-display">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fc-e5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="fc-display" target="fc-stop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sequencing-pseudocode" name="Sequencing - Pseudocode">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pc-title" value="Sequencing in Pseudocode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-block" value="SEND &quot;Enter item price&quot; TO DISPLAY&#xa;RECEIVE itemPrice FROM KEYBOARD&#xa;SEND &quot;Enter quantity&quot; TO DISPLAY&#xa;RECEIVE quantity FROM KEYBOARD&#xa;SET totalCost TO itemPrice * quantity&#xa;SEND totalCost TO DISPLAY" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=17;fontFamily=Courier New;align=left;verticalAlign=top;spacing=18;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="700" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-order1" value="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="145" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-order2" value="2" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="183" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-order3" value="3" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="221" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-order4" value="4" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="259" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-order5" value="5" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="297" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-order6" value="6" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="335" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pc-note" value="Read from top to bottom.&#xa;Each line happens once, in order.&#xa;There is no IF statement and no loop." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=16;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="500" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
