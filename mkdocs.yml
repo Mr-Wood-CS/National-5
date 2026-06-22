@@ -70,6 +70,10 @@ nav:
         - Select/From/Where: '03-ddd/3.4-implementation/3.4.4.1-select-from-where-tasks.md'
     - Testing: '03-ddd/3.5-testing/3.5.1-db-testing.md'
     - Evaluation: '03-ddd/3.6-evaluation/3.6.1-db-evaluation.md'
+    - Practice Questions:
+      - Implementation:
+        - Videoblogger: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1-videoblogger.md'
+        - After School Clubs: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2-after-school-clubs.md'
 
       
 markdown_extensions:
