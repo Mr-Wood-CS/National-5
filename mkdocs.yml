@@ -31,6 +31,7 @@ nav:
         - Inputting Numbers: '01-sdd/1.4-implementation/5.1.6-inputting-numbers.md'
         - Calculations: '01-sdd/1.4-implementation/5.1.7-calculations.md'
         - String Concatenation: '01-sdd/1.4-implementation/5.1.8-string-concatenation.md'
+        - Questions: '01-sdd/1.4-implementation/5.1.9-input-output-questions.md'
   - Computer Systems:
     - Data Representation:
       - Understanding Binary: '02-cs/2.1-data-representation/2.1-number-representation.md'
