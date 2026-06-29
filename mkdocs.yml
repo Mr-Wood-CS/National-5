@@ -20,6 +20,17 @@ nav:
         #- Selection: '01-sdd/1.3-design/1.3.3.2-selection.md'
         #- Iteration: '01-sdd/1.3-design/1.3.3.3-iteration.md'
       # - Wireframes: '01-sdd/1.3-design/1.3.6-wireframes.md'
+    - Implementation:
+      - Input, Output, Variables and Data Types:
+        - Overview: '01-sdd/1.4-implementation/5.1_Input_and_Output.md'
+        - Comments: '01-sdd/1.4-implementation/5.1.1-comments.md'
+        - Variables: '01-sdd/1.4-implementation/5.1.2-variables.md'
+        - Data Types: '01-sdd/1.4-implementation/5.1.3-data-types.md'
+        - Output: '01-sdd/1.4-implementation/5.1.4-output.md'
+        - Input: '01-sdd/1.4-implementation/5.1.5-input.md'
+        - Inputting Numbers: '01-sdd/1.4-implementation/5.1.6-inputting-numbers.md'
+        - Calculations: '01-sdd/1.4-implementation/5.1.7-calculations.md'
+        - String Concatenation: '01-sdd/1.4-implementation/5.1.8-string-concatenation.md'
   - Computer Systems:
     - Data Representation:
       - Understanding Binary: '02-cs/2.1-data-representation/2.1-number-representation.md'
@@ -74,52 +85,7 @@ nav:
       - Implementation:
         - Videoblogger: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1-videoblogger.md'
         - After School Clubs: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2-after-school-clubs.md'
-    - Program Challenges:
-      - Overview: 'program-challenges/index.md'
-      - 🔥:
-        - Name Change: 'program-challenges/level-1/Name Change.md'
-        - Area Calc: 'program-challenges/level-1/Area Calc.md'
-        - Largest Number: 'program-challenges/level-1/Largest Number.md'
-        - Number Changer: 'program-challenges/level-1/Number Changer.md'
-        - Jim's Bonus Scheme: "program-challenges/level-1/Jim's Bonus Scheme.md"
-      - 🔥🔥:
-        - Bigger and Bigger: 'program-challenges/level-2/Bigger and Bigger.md'
-        - Form Chooser: 'program-challenges/level-2/Form Chooser.md'
-        - Taxi Fare: 'program-challenges/level-2/Taxi Fare.md'
-        - Password Check: 'program-challenges/level-2/Password Check.md'
-        - Secret Agent: 'program-challenges/level-2/Secret Agent.md'
-        - New Email: 'program-challenges/level-2/New Email.md'
-        - Bonus Payment: 'program-challenges/level-2/Bonus Payment.md'
-        - BMI Checker: 'program-challenges/level-2/BMI Checker.md'
-        - Magic 8 Ball: 'program-challenges/level-2/Magic 8 Ball.md'
-        - km to Miles: 'program-challenges/level-2/km to Miles.md'
-        - Random Number Generator: 'program-challenges/level-2/Random Number Generator.md'
-      - 🔥🔥🔥:
-        - Ice Cream!: 'program-challenges/level-3/Ice Cream!.md'
-        - Cake Maker: 'program-challenges/level-3/Cake Maker.md'
-        - Five A Day: 'program-challenges/level-3/Five A Day.md'
-        - Squares and Cubes: 'program-challenges/level-3/Squares and Cubes.md'
-        - Lower Case: 'program-challenges/level-3/Lower Case.md'
-        - Go Kart: 'program-challenges/level-3/Go Kart.md'
-        - Pick A Card: 'program-challenges/level-3/Pick A Card.md'
-        - Darts: 'program-challenges/level-3/Darts.md'
-        - Averages: 'program-challenges/level-3/Averages.md'
-        - Times Tables: 'program-challenges/level-3/Times Tables.md'
-      - 🔥🔥🔥🔥:
-        - Bingo!: 'program-challenges/level-4/Bingo!.md'
-        - OCR Tech: 'program-challenges/level-4/OCR Tech.md'
-        - OCR FC - Goals Array: 'program-challenges/level-4/OCR FC - Goals Array.md'
-        - Game Time - Day Of The Week: 'program-challenges/level-4/Game Time - Day Of The Week.md'
-        - Logging In: 'program-challenges/level-4/Logging In.md'
-        - Email Validator: 'program-challenges/level-4/Email Validator.md'
-        - Pin Checker: 'program-challenges/level-4/Pin Checker.md'
-        - 6th Form Admissions: 'program-challenges/level-4/6th Form Admissions.md'
-        - Free Electricity!: 'program-challenges/level-4/Free Electricity!.md'
-        - How Many Cars?: 'program-challenges/level-4/How Many Cars?.md'
-      - 🔥🔥🔥🔥🔥:
-        - Game Time - Total Time: 'program-challenges/level-5/Game Time - Total Time.md'
-        - Inverse Image: 'program-challenges/level-5/Inverse Image.md'
-        - Battleships: 'program-challenges/level-5/Battleships.md'
+    
       
 markdown_extensions:
       - admonition
