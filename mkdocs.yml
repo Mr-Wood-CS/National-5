@@ -21,17 +21,22 @@ nav:
         #- Iteration: '01-sdd/1.3-design/1.3.3.3-iteration.md'
       # - Wireframes: '01-sdd/1.3-design/1.3.6-wireframes.md'
     - Implementation:
-      - Input, Output, Variables and Data Types:
+      - Input/Output:
         - Overview: '01-sdd/1.4-implementation/5.1_Input_and_Output.md'
         - Comments: '01-sdd/1.4-implementation/5.1.1-comments.md'
         - Variables: '01-sdd/1.4-implementation/5.1.2-variables.md'
-        - Data Types: '01-sdd/1.4-implementation/5.1.3-data-types.md'
-        - Output: '01-sdd/1.4-implementation/5.1.4-output.md'
-        - Input: '01-sdd/1.4-implementation/5.1.5-input.md'
-        - Inputting Numbers: '01-sdd/1.4-implementation/5.1.6-inputting-numbers.md'
-        - Calculations: '01-sdd/1.4-implementation/5.1.7-calculations.md'
-        - String Concatenation: '01-sdd/1.4-implementation/5.1.8-string-concatenation.md'
-        - Questions: '01-sdd/1.4-implementation/5.1.9-input-output-questions.md'
+        - Arrays: '01-sdd/1.4-implementation/5.1.3-arrays.md'
+        - Data Types: '01-sdd/1.4-implementation/5.1.4-data-types.md'
+        - Output: '01-sdd/1.4-implementation/5.1.5-output.md'
+        - Input: '01-sdd/1.4-implementation/5.1.6-input.md'
+        - Inputting Numbers: '01-sdd/1.4-implementation/5.1.7-inputting-numbers.md'
+        - Calculations: '01-sdd/1.4-implementation/5.1.8-calculations.md'
+        - String Concatenation: '01-sdd/1.4-implementation/5.1.9-string-concatenation.md'
+        - Tasks: 
+          - Input/Output: '01-sdd/1.4-implementation/5.1.10-input-output(t).md'
+          - Variables: '01-sdd/1.4-implementation/5.1.11-variables(t).md'
+          - Arrays: '01-sdd/1.4-implementation/5.1.12-arrays(t).md'
+          - Numbers: '01-sdd/1.4-implementation/5.1.12-working-with-numbers(t).md'
   - Computer Systems:
     - Data Representation:
       - Understanding Binary: '02-cs/2.1-data-representation/2.1-number-representation.md'
