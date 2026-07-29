@@ -91,7 +91,11 @@ nav:
       - Implementation:
         - Videoblogger: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1-videoblogger.md'
         - After School Clubs: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2-after-school-clubs.md'
-        - Scottish Golfers: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3-scottish-golfers.md'
+        - Scottish Golfers:
+          - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3-scottish-golfers.md'
+          - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3.1-select-from-where.md'
+          - SELECT and ORDER BY: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3.2-select-order-by.md'
+          - INSERT, UPDATE and DELETE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3.3-insert-update-delete.md'
     
       
 markdown_extensions:
