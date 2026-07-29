@@ -83,29 +83,29 @@ nav:
       - SQL Equi-Joins:
         - Explanation: '03-ddd/3.4-implementation/3.4.3-sql-equi-joins.md'
         - Tasks: '03-ddd/3.4-implementation/3.4.4-equi-join-tasks.md'
-      - SQL Practice Tasks:
-        - Select/From/Where: '03-ddd/3.4-implementation/3.4.4.1-select-from-where-tasks.md'
     - Testing: '03-ddd/3.5-testing/3.5.1-db-testing.md'
     - Evaluation: '03-ddd/3.6-evaluation/3.6.1-db-evaluation.md'
     - Practice Questions:
-      - Implementation:
-        - Videoblogger:
-          - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1-videoblogger.md'
-          - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.1-select-from-where.md'
-          - SELECT and ORDER BY: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.2-select-order-by.md'
-          - INSERT, UPDATE and DELETE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.3-insert-update-delete.md'
-          - Equi-Joins: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.4-equi-joins.md'
-        - After School Clubs:
-          - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2-after-school-clubs.md'
-          - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2.1-select-from-where.md'
-          - SELECT and ORDER BY: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2.2-select-order-by.md'
-          - INSERT, UPDATE and DELETE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2.3-insert-update-delete.md'
-          - Equi-Joins: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2.4-equi-joins.md'
-        - Scottish Golfers:
-          - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3-scottish-golfers.md'
-          - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3.1-select-from-where.md'
-          - SELECT and ORDER BY: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3.2-select-order-by.md'
-          - INSERT, UPDATE and DELETE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3.3-insert-update-delete.md'
+      - Bishra's Bakery:
+        - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.4-bishras-bakery.md'
+        - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.4.1-select-from-where.md'
+      - Videoblogger:
+        - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1-videoblogger.md'
+        - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.1-select-from-where.md'
+        - SELECT and ORDER BY: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.2-select-order-by.md'
+        - INSERT, UPDATE and DELETE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.3-insert-update-delete.md'
+        - Equi-Joins: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.1.4-equi-joins.md'
+      - After School Clubs:
+        - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2-after-school-clubs.md'
+        - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2.1-select-from-where.md'
+        - SELECT and ORDER BY: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2.2-select-order-by.md'
+        - INSERT, UPDATE and DELETE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2.3-insert-update-delete.md'
+        - Equi-Joins: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.2.4-equi-joins.md'
+      - Scottish Golfers:
+        - Overview: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3-scottish-golfers.md'
+        - SELECT and WHERE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3.1-select-from-where.md'
+        - SELECT and ORDER BY: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3.2-select-order-by.md'
+        - INSERT, UPDATE and DELETE: '03-ddd/3.7-practice-question/3.7.4-implementation/3.7.4.3.3-insert-update-delete.md'
     
       
 markdown_extensions:
