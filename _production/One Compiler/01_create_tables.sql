@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS Result;
+DROP TABLE IF EXISTS Golfer;
+
+CREATE TABLE Golfer (
+  scotGolfNo INT NOT NULL PRIMARY KEY,
+  forename VARCHAR(255) NOT NULL,
+  surname VARCHAR(255) NOT NULL,
+  age VARCHAR(255) NOT NULL,
+  club VARCHAR(255) NOT NULL,
+  handicap INT
+);
+
+CREATE TABLE Result (
+  resultID VARCHAR(255) NOT NULL PRIMARY KEY,
+  competition VARCHAR(255) NOT NULL,
+  level VARCHAR(255) NOT NULL,
+  type VARCHAR(255) NOT NULL,
+  year INT NOT NULL,
+  score INT NOT NULL,
+  scotGolfNo INT NOT NULL,
+  matchType VARCHAR(255) NOT NULL,
+  FOREIGN KEY (scotGolfNo) REFERENCES Golfer(scotGolfNo)
+);

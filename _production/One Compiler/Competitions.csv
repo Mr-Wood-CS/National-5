@@ -1,0 +1,66 @@
+resultID,competition,level,type,year,matchType
+ABD,Aberdeen Match,Junior,Ladies,2021,match play
+ABD,Aberdeen Match,Junior,Gents,2021,match play
+ARB,Arbroath Match,Adult,Gents,2021,match play
+ARB,Arbroath Match,Adult,Ladies,2021,match play
+BRA,Braehead Mixed Cup,Adult,Mixed,2021,stableford
+CAR,Cairnpark Classic,Senior,Gents,2021,stroke play
+CAR,Cairnpark Classic,Senior,Ladies,2021,stroke play
+CAR,Cairnpark Classic,Senior,Gents,2022,stroke play
+CAR,Cairnpark Classic,Senior,Ladies,2022,stroke play
+DUM,Dumfries Seniors,Senior,Gents,2021,stableford
+DUM,Dumfries Seniors,Senior,Ladies,2021,stableford
+DUM,Dumfries Seniors,Senior,Gents,2022,stableford
+DUM,Dumfries Seniors,Senior,Ladies,2022,stableford
+DUN,Dundee Masters,Adult,Mixed,2021,stableford
+DUN,Dundee Masters,Adult,Mixed,2022,stableford
+DUN,Dundee Open,Adult,Ladies,2021,stroke play
+DUN,Dundee Open,Adult,Gents,2021,stroke play
+DUN,Dundee Open,Adult,Gents,2022,stroke play
+DUF,Dunfermline Carnegie Cup,Junior,Gents,2021,stroke play
+DUF,Dunfermline Carnegie Cup,Junior,Ladies,2021,stroke play
+DUF,Dunfermline Carnegie Cup,Junior,Ladies,2022,stroke play
+DUF,Dunfermline Open,Adult,Gents,2021,stroke play
+DUF,Dunfermline Open,Adult,Ladies,2021,stroke play
+DUF,Dunfermline Open,Senior,Ladies,2021,stroke play
+DUF,Dunfermline Open,Senior,Gents,2021,stroke play
+DUF,Dunfermline Open,Adult,Gents,2022,stroke play
+DUF,Dunfermline Open,Adult,Ladies,2022,stroke play
+DUF,Dunfermline Open,Senior,Ladies,2022,stroke play
+DUF,Dunfermline Open,Senior,Gents,2022,stroke play
+EDN,Edinburgh Masters,Senior,Mixed,2021,stableford
+EDN,Edinburgh Masters,Senior,Mixed,2022,stableford
+ELG,Elgin Match,Junior,Mixed,2021,match play
+GLA,Glasgow Seniors,Senior,Mixed,2021,stroke play
+GLA,Glasgow Seniors,Senior,Mixed,2022,stroke play
+GUL,Gullane Open,Adult,Ladies,2021,stroke play
+GUL,Gullane Open,Adult,Gents,2021,stroke play
+GUL,Gullane Open,Adult,Gents,2022,stroke play
+HAW,Hawick Seniors,Senior,Gents,2021,stroke play
+HAW,Hawick Seniors,Senior,Ladies,2021,stroke play
+HAW,Hawick Seniors,Senior,Gents,2022,stroke play
+HAW,Hawick Seniors,Senior,Ladies,2022,stroke play
+LAM,Lamlash Open,Junior,Ladies,2021,stroke play
+LAM,Lamlash Open,Junior,Ladies,2022,stroke play
+NAR,Nairn Open,Adult,Ladies,2021,stroke play
+NAR,Nairn Open,Adult,Gents,2021,stroke play
+NAR,Nairn Open,Adult,Gents,2022,stroke play
+OBN,Oban Match Play,Adult,Gents,2021,match play
+OBN,Oban Match Play,Adult,Ladies,2021,match play
+OBN,Oban Open,Adult,Ladies,2021,stroke play
+OBN,Oban Open,Adult,Gents,2021,stroke play
+OBN,Oban Open,Adult,Ladies,2022,stroke play
+PRH,Perth Challenge Cup,Senior,Gents,2021,stroke play
+PRH,Perth Challenge Cup,Senior,Ladies,2021,stroke play
+PRH,Perth Challenge Cup,Senior,Gents,2022,stroke play
+PRH,Perth Challenge Cup,Senior,Ladies,2022,stroke play
+PRH,Perth Open,Adult,Ladies,2021,stroke play
+PRH,Perth Open,Adult,Gents,2021,stroke play
+SAQ,Sanquhar Open,Adult,Ladies,2021,stroke play
+SAQ,Sanquhar Open,Adult,Gents,2021,stroke play
+SAQ,Sanquhar Open,Adult,Ladies,2022,stroke play
+SAQ,Sanquhar Open,Adult,Gents,2022,stroke play
+STA,St Andrews Cup,Adult,Gents,2021,stroke play
+TIR,Tiree Masters,Adult,Gents,2021,stroke play
+TIR,Tiree Masters,Adult,Ladies,2021,stroke play
+TIR,Tiree Masters,Adult,Ladies,2022,stroke play
