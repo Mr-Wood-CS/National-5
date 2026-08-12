@@ -135,6 +135,7 @@ theme:
     primary: blue
     accent: deep orange
   icon:
+    logo: material/code-tags
     admonition:
       note: fontawesome/solid/note-sticky
       abstract: fontawesome/solid/book
