@@ -4496,6 +4496,14 @@
 <div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">itemNames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Cupcakes"</span><span class="p">,</span> <span class="s2">"Brownies"</span><span class="p">,</span> <span class="s2">"Cookies"</span><span class="p">]</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">itemPrices</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1.50</span><span class="p">,</span> <span class="mf">2.00</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">]</span>
 </span></code></pre></div>
+<p>The two arrays match up by position.</p>
+<p>This means:</p>
+<ul>
+<li><code>itemNames[0]</code> is <code>"Cupcakes"</code> and <code>itemPrices[0]</code> is <code>1.50</code></li>
+<li><code>itemNames[1]</code> is <code>"Brownies"</code> and <code>itemPrices[1]</code> is <code>2.00</code></li>
+<li><code>itemNames[2]</code> is <code>"Cookies"</code> and <code>itemPrices[2]</code> is <code>0.75</code></li>
+</ul>
+<p>So, if the program is working with cupcakes, it should use the first item in each array.</p>
 <p>Ask how many of each item was sold.</p>
 <p>Then calculate the money made and the profit.</p>
 <h2 id="task-1-analysis">Task 1: Analysis</h2>
@@ -4593,6 +4601,8 @@
 <div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">itemNames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Cupcakes"</span><span class="p">,</span> <span class="s2">"Brownies"</span><span class="p">,</span> <span class="s2">"Cookies"</span><span class="p">]</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">itemPrices</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1.50</span><span class="p">,</span> <span class="mf">2.00</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">]</span>
 </span></code></pre></div>
+<p>Remember that array indexes start at <code>0</code>.</p>
+<p>For example, the cupcake price is stored at <code>itemPrices[0]</code>, not <code>itemPrices[1]</code>.</p>
 <p>Remember:</p>
 <ul>
 <li>use the item prices from the array</li>
