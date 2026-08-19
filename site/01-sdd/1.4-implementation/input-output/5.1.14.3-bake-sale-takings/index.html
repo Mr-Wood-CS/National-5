@@ -4492,18 +4492,21 @@
 <p>You are going to make a program for a charity bake sale.</p>
 <p>It will work out the money made and the profit.</p>
 <h2 id="what-the-program-should-do">What the Program Should Do</h2>
-<p>Use these arrays:</p>
+<p>Use this array:</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">itemNames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Cupcakes"</span><span class="p">,</span> <span class="s2">"Brownies"</span><span class="p">,</span> <span class="s2">"Cookies"</span><span class="p">]</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">itemPrices</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1.50</span><span class="p">,</span> <span class="mf">2.00</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">]</span>
 </span></code></pre></div>
-<p>The two arrays match up by position.</p>
+<p>This array stores the names of the items being sold.</p>
 <p>This means:</p>
 <ul>
-<li><code>itemNames[0]</code> is <code>"Cupcakes"</code> and <code>itemPrices[0]</code> is <code>1.50</code></li>
-<li><code>itemNames[1]</code> is <code>"Brownies"</code> and <code>itemPrices[1]</code> is <code>2.00</code></li>
-<li><code>itemNames[2]</code> is <code>"Cookies"</code> and <code>itemPrices[2]</code> is <code>0.75</code></li>
+<li><code>itemNames[0]</code> is <code>"Cupcakes"</code></li>
+<li><code>itemNames[1]</code> is <code>"Brownies"</code></li>
+<li><code>itemNames[2]</code> is <code>"Cookies"</code></li>
 </ul>
-<p>So, if the program is working with cupcakes, it should use the first item in each array.</p>
+<p>Use separate variables for the prices:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">cupcakePrice</span> <span class="o">=</span> <span class="mf">1.50</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">browniePrice</span> <span class="o">=</span> <span class="mf">2.00</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">cookiePrice</span> <span class="o">=</span> <span class="mf">0.75</span>
+</span></code></pre></div>
 <p>Ask how many of each item was sold.</p>
 <p>Then calculate the money made and the profit.</p>
 <h2 id="task-1-analysis">Task 1: Analysis</h2>
@@ -4588,7 +4591,7 @@
 </ul>
 <p>Show this order:</p>
 <ol>
-<li>set up the arrays</li>
+<li>set up the item names array and price variables</li>
 <li>ask how many items were sold</li>
 <li>ask for the ingredient cost</li>
 <li>calculate the totals</li>
@@ -4597,15 +4600,20 @@
 <h2 id="task-4-code">Task 4: Code</h2>
 <p>Create the program in Python.</p>
 <p>Take a screenshot of your finished code and add it to your worksheet.</p>
-<p>Use these arrays:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">itemNames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Cupcakes"</span><span class="p">,</span> <span class="s2">"Brownies"</span><span class="p">,</span> <span class="s2">"Cookies"</span><span class="p">]</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">itemPrices</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1.50</span><span class="p">,</span> <span class="mf">2.00</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">]</span>
+<p>Use this array:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">itemNames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Cupcakes"</span><span class="p">,</span> <span class="s2">"Brownies"</span><span class="p">,</span> <span class="s2">"Cookies"</span><span class="p">]</span>
 </span></code></pre></div>
-<p>Remember that array indexes start at <code>0</code>.</p>
-<p>For example, the cupcake price is stored at <code>itemPrices[0]</code>, not <code>itemPrices[1]</code>.</p>
+<p>Use these price variables:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">cupcakePrice</span> <span class="o">=</span> <span class="mf">1.50</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">browniePrice</span> <span class="o">=</span> <span class="mf">2.00</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">cookiePrice</span> <span class="o">=</span> <span class="mf">0.75</span>
+</span></code></pre></div>
+<p>The array is only storing the item names.</p>
+<p>The price variables store the cost of each item.</p>
 <p>Remember:</p>
 <ul>
-<li>use the item prices from the array</li>
+<li>use the item names from the array when displaying the summary</li>
+<li>use the price variables in your calculations</li>
 <li>use <code>int()</code> for the number sold</li>
 <li>use <code>float()</code> for the ingredient cost</li>
 </ul>
