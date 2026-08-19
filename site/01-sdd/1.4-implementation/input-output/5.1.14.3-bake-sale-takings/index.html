@@ -1868,6 +1868,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
+  <a href="#what-the-program-should-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the Program Should Do
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#step-1-analysis" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4255,6 +4266,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
+  <a href="#what-the-program-should-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the Program Should Do
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#step-1-analysis" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4420,43 +4442,45 @@
 
 <h1 id="task-3-bake-sale-takings">Task 3: Bake Sale Takings</h1>
 <style>
-  .putting-it-together-table {
+  .small-task-table {
     width: 100%;
-    margin: 0.9rem 0 1.6rem;
+    margin: 0.45rem 0 1rem;
     border-collapse: collapse;
-    border: 1px solid #c9c9c9;
+    border: 1px solid #d8d8d8;
     table-layout: fixed;
+    font-size: 0.82rem;
   }
 
-  .putting-it-together-table th,
-  .putting-it-together-table td {
-    border: 1px solid #c9c9c9;
-    padding: 0.65rem;
+  .small-task-table th,
+  .small-task-table td {
+    border: 1px solid #d8d8d8;
+    padding: 0.28rem 0.4rem;
     vertical-align: top;
   }
 
-  .putting-it-together-table th {
-    background-color: #f5f5f5;
-    font-weight: 600;
+  .small-task-table th {
+    background-color: #ffffff;
+    font-weight: 500;
     text-align: center;
   }
 
-  .putting-it-together-table td {
-    min-height: 3rem;
+  .small-task-table td {
+    height: 1.7rem;
   }
 </style>
 
-<p>In this task, you will create a program that works out how much money was made at a bake sale.</p>
-<p>This task uses arrays and calculations together.</p>
-<div class="admonition info">
-<p class="admonition-title">The Problem</p>
-<p>A charity group wants a program to calculate the money made from cupcakes, brownies and cookies.</p>
-<p>The program should also subtract the ingredient cost to work out the profit.</p>
-</div>
+<p>You are going to make a program for a charity bake sale.</p>
+<p>It will work out the money made and the profit.</p>
+<h2 id="what-the-program-should-do">What the Program Should Do</h2>
+<p>Use these arrays:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">itemNames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Cupcakes"</span><span class="p">,</span> <span class="s2">"Brownies"</span><span class="p">,</span> <span class="s2">"Cookies"</span><span class="p">]</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">itemPrices</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1.50</span><span class="p">,</span> <span class="mf">2.00</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">]</span>
+</span></code></pre></div>
+<p>Ask how many of each item was sold.</p>
+<p>Then calculate the money made and the profit.</p>
 <h2 id="step-1-analysis">Step 1: Analysis</h2>
-<p>Start by breaking the problem into inputs, processes and outputs.</p>
-<p>Complete the Input-Process-Output table.</p>
-<table class="putting-it-together-table">
+<p>First, think about the inputs, processes and outputs.</p>
+<table class="small-task-table">
   <thead>
     <tr>
       <th>Input</th>
@@ -4474,9 +4498,8 @@
 </table>
 
 <h2 id="step-2-data-types-and-structures">Step 2: Data Types and Structures</h2>
-<p>Think about what each item stores.</p>
-<p>Some data will be stored in arrays. Some data will be stored in variables.</p>
-<table class="putting-it-together-table">
+<p>Decide how each item should be stored. Short answers are fine.</p>
+<table class="small-task-table">
   <thead>
     <tr>
       <th>Data Item</th>
@@ -4526,44 +4549,35 @@
 </table>
 
 <h2 id="step-3-design">Step 3: Design</h2>
-<p>Design the program before you start coding.</p>
-<p>Choose one of these:</p>
+<p>Plan your program before you code it.</p>
+<p>Choose one:</p>
 <ul>
 <li>pseudocode</li>
 <li>a structure diagram</li>
 <li>a flowchart</li>
 </ul>
-<p>Your design should show this order:</p>
+<p>Show this order:</p>
 <ol>
-<li>set up the item names and prices</li>
-<li>ask how many of each item was sold</li>
+<li>set up the arrays</li>
+<li>ask how many items were sold</li>
 <li>ask for the ingredient cost</li>
-<li>calculate the money made</li>
-<li>calculate the profit</li>
+<li>calculate the totals</li>
 <li>display the summary</li>
 </ol>
 <h2 id="step-4-code">Step 4: Code</h2>
 <p>Create the program in Python.</p>
-<p>Use these arrays in your program:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">itemNames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Cupcakes"</span><span class="p">,</span> <span class="s2">"Brownies"</span><span class="p">,</span> <span class="s2">"Cookies"</span><span class="p">]</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">itemPrices</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1.50</span><span class="p">,</span> <span class="mf">2.00</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">]</span>
+<p>Use these arrays:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">itemNames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Cupcakes"</span><span class="p">,</span> <span class="s2">"Brownies"</span><span class="p">,</span> <span class="s2">"Cookies"</span><span class="p">]</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">itemPrices</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1.50</span><span class="p">,</span> <span class="mf">2.00</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">]</span>
 </span></code></pre></div>
-<p>Your program should calculate:</p>
+<p>Remember:</p>
 <ul>
-<li>the money made from cupcakes</li>
-<li>the money made from brownies</li>
-<li>the money made from cookies</li>
-<li>the total money made</li>
-<li>the profit</li>
+<li>use the item prices from the array</li>
+<li>use <code>int()</code> for the number sold</li>
+<li>use <code>float()</code> for the ingredient cost</li>
 </ul>
-<div class="admonition tip">
-<p class="admonition-title">Remember</p>
-<p>Use the item prices from the array when doing your calculations.</p>
-<p>Use <code>float()</code> for the ingredient cost because it might include pence.</p>
-</div>
 <h2 id="example-run">Example Run</h2>
-<p>This example shows the kind of answer your program should produce.</p>
-<table class="putting-it-together-table">
+<table class="small-task-table">
   <thead>
     <tr>
       <th>Example Input</th>

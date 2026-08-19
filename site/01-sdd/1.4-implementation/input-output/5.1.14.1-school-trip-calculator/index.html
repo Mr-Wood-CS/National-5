@@ -1812,6 +1812,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
+  <a href="#what-the-program-should-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the Program Should Do
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#step-1-analysis" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4255,6 +4266,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
+  <a href="#what-the-program-should-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the Program Should Do
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#step-1-analysis" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4420,48 +4442,53 @@
 
 <h1 id="task-1-school-trip-calculator">Task 1: School Trip Calculator</h1>
 <style>
-  .putting-it-together-table {
+  .small-task-table {
     width: 100%;
-    margin: 0.9rem 0 1.6rem;
+    margin: 0.45rem 0 1rem;
     border-collapse: collapse;
-    border: 1px solid #c9c9c9;
+    border: 1px solid #d8d8d8;
     table-layout: fixed;
+    font-size: 0.82rem;
   }
 
-  .putting-it-together-table th,
-  .putting-it-together-table td {
-    border: 1px solid #c9c9c9;
-    padding: 0.65rem;
+  .small-task-table th,
+  .small-task-table td {
+    border: 1px solid #d8d8d8;
+    padding: 0.28rem 0.4rem;
     vertical-align: top;
   }
 
-  .putting-it-together-table th {
-    background-color: #f5f5f5;
-    font-weight: 600;
+  .small-task-table th {
+    background-color: #ffffff;
+    font-weight: 500;
     text-align: center;
   }
 
-  .putting-it-together-table td {
-    min-height: 3rem;
+  .small-task-table td {
+    height: 1.7rem;
   }
 </style>
 
-<p>In this task, you will create a program that works out the cost of a school trip.</p>
-<p>The program is for a teacher who needs to know:</p>
+<p>You are going to make a small program for a school trip.</p>
+<p>It will work out the total cost and the cost for each pupil.</p>
+<h2 id="what-the-program-should-do">What the Program Should Do</h2>
+<p>Ask for:</p>
 <ul>
-<li>how much the trip costs altogether</li>
-<li>how much each pupil needs to pay</li>
+<li>the pupil's name</li>
+<li>the destination</li>
+<li>the number of pupils</li>
+<li>the entry cost per pupil</li>
+<li>the bus cost</li>
 </ul>
-<p>Take it one section at a time.</p>
-<div class="admonition info">
-<p class="admonition-title">The Problem</p>
-<p>A teacher wants a program to help calculate the cost of a school trip.</p>
-<p>The program will ask for the pupil's name, the trip destination, the number of pupils, the entry cost per pupil, and the bus cost.</p>
-</div>
+<p>Then calculate:</p>
+<ul>
+<li>the total entry cost</li>
+<li>the total trip cost</li>
+<li>the cost per pupil</li>
+</ul>
 <h2 id="step-1-analysis">Step 1: Analysis</h2>
-<p>First, think about the problem before writing any code.</p>
-<p>Complete the Input-Process-Output table.</p>
-<table class="putting-it-together-table">
+<p>First, think about the inputs, processes and outputs.</p>
+<table class="small-task-table">
   <thead>
     <tr>
       <th>Input</th>
@@ -4479,9 +4506,8 @@
 </table>
 
 <h2 id="step-2-data-types-and-structures">Step 2: Data Types and Structures</h2>
-<p>Now decide how the data should be stored.</p>
-<p>You do not need long answers in the reason column. A short explanation is enough.</p>
-<table class="putting-it-together-table">
+<p>Decide how each item should be stored. Short answers are fine.</p>
+<table class="small-task-table">
   <thead>
     <tr>
       <th>Data Item</th>
@@ -4531,38 +4557,32 @@
 </table>
 
 <h2 id="step-3-design">Step 3: Design</h2>
-<p>Design the program before you start coding.</p>
-<p>Choose one of these:</p>
+<p>Plan your program before you code it.</p>
+<p>Choose one:</p>
 <ul>
 <li>pseudocode</li>
 <li>a structure diagram</li>
 <li>a flowchart</li>
 </ul>
-<p>Your design should show this order:</p>
+<p>Show this order:</p>
 <ol>
-<li>get the information from the user</li>
+<li>get the information</li>
 <li>calculate the costs</li>
-<li>display the trip summary</li>
+<li>display the summary</li>
 </ol>
 <h2 id="step-4-code">Step 4: Code</h2>
 <p>Create the program in Python.</p>
-<p>Use this array in your program:</p>
+<p>Use this array:</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">costLabels</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Entry total"</span><span class="p">,</span> <span class="s2">"Bus cost"</span><span class="p">,</span> <span class="s2">"Total cost"</span><span class="p">]</span>
 </span></code></pre></div>
-<p>Your program should calculate:</p>
+<p>Remember:</p>
 <ul>
-<li>the total entry cost</li>
-<li>the total trip cost</li>
-<li>the cost per pupil including the bus cost</li>
+<li>use <code>int()</code> for whole numbers</li>
+<li>use <code>float()</code> for money</li>
+<li>add comments to explain the main parts</li>
 </ul>
-<div class="admonition tip">
-<p class="admonition-title">Remember</p>
-<p>Use <code>int()</code> for whole numbers.</p>
-<p>Use <code>float()</code> for numbers that might have decimal places, such as money.</p>
-</div>
 <h2 id="example-run">Example Run</h2>
-<p>This example shows the kind of answer your program should produce.</p>
-<table class="putting-it-together-table">
+<table class="small-task-table">
   <thead>
     <tr>
       <th>Example Input</th>
