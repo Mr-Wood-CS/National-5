@@ -1868,10 +1868,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#analysis" class="md-nav__link">
+  <a href="#step-1-analysis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Analysis
+        Step 1: Analysis
       
     </span>
   </a>
@@ -1879,10 +1879,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-types-and-structures" class="md-nav__link">
+  <a href="#step-2-data-types-and-structures" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Data Types and Structures
+        Step 2: Data Types and Structures
       
     </span>
   </a>
@@ -1890,10 +1890,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#design" class="md-nav__link">
+  <a href="#step-3-design" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Design
+        Step 3: Design
       
     </span>
   </a>
@@ -1901,10 +1901,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#implementation" class="md-nav__link">
+  <a href="#step-4-code" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Implementation
+        Step 4: Code
       
     </span>
   </a>
@@ -4255,10 +4255,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#analysis" class="md-nav__link">
+  <a href="#step-1-analysis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Analysis
+        Step 1: Analysis
       
     </span>
   </a>
@@ -4266,10 +4266,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-types-and-structures" class="md-nav__link">
+  <a href="#step-2-data-types-and-structures" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Data Types and Structures
+        Step 2: Data Types and Structures
       
     </span>
   </a>
@@ -4277,10 +4277,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#design" class="md-nav__link">
+  <a href="#step-3-design" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Design
+        Step 3: Design
       
     </span>
   </a>
@@ -4288,10 +4288,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#implementation" class="md-nav__link">
+  <a href="#step-4-code" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Implementation
+        Step 4: Code
       
     </span>
   </a>
@@ -4419,36 +4419,16 @@
 
 
 <h1 id="task-3-bake-sale-takings">Task 3: Bake Sale Takings</h1>
-<p>A charity group wants a program to calculate how much money was made at a bake sale.</p>
-<p>The program should use these arrays:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">itemNames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Cupcakes"</span><span class="p">,</span> <span class="s2">"Brownies"</span><span class="p">,</span> <span class="s2">"Cookies"</span><span class="p">]</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">itemPrices</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1.50</span><span class="p">,</span> <span class="mf">2.00</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">]</span>
-</span></code></pre></div>
-<p>The program should ask the user to enter:</p>
-<ul>
-<li>how many cupcakes were sold</li>
-<li>how many brownies were sold</li>
-<li>how many cookies were sold</li>
-<li>the cost of ingredients</li>
-</ul>
-<p>The program should calculate:</p>
-<ul>
-<li>the money made from cupcakes</li>
-<li>the money made from brownies</li>
-<li>the money made from cookies</li>
-<li>the total money made</li>
-<li>the profit</li>
-</ul>
-<p>The program should display a clear bake sale summary showing:</p>
-<ul>
-<li>each item name from the array</li>
-<li>the money made from each item</li>
-<li>the total money made</li>
-<li>the ingredient cost</li>
-<li>the profit</li>
-</ul>
-<h2 id="analysis">Analysis</h2>
-<p>Complete an Input-Process-Output table.</p>
+<p>In this task, you will create a program that works out how much money was made at a bake sale.</p>
+<p>This task uses arrays and calculations together.</p>
+<div class="admonition info">
+<p class="admonition-title">The Problem</p>
+<p>A charity group wants a program to calculate the money made from cupcakes, brownies and cookies.</p>
+<p>The program should also subtract the ingredient cost to work out the profit.</p>
+</div>
+<h2 id="step-1-analysis">Step 1: Analysis</h2>
+<p>Start by breaking the problem into inputs, processes and outputs.</p>
+<p>Complete the Input-Process-Output table.</p>
 <table class="ipo-table">
   <thead>
     <tr>
@@ -4466,9 +4446,10 @@
   </tbody>
 </table>
 
-<h2 id="data-types-and-structures">Data Types and Structures</h2>
-<p>Complete the table below.</p>
-<table>
+<h2 id="step-2-data-types-and-structures">Step 2: Data Types and Structures</h2>
+<p>Think about what each item stores.</p>
+<p>Some data will be stored in arrays. Some data will be stored in variables.</p>
+<table class="practice-table">
   <thead>
     <tr>
       <th>Data Item</th>
@@ -4517,22 +4498,45 @@
   </tbody>
 </table>
 
-<h2 id="design">Design</h2>
-<p>Write pseudocode for the program.</p>
-<p>Create either a structure diagram or a flowchart for the program.</p>
-<h2 id="implementation">Implementation</h2>
-<p>Create the program in Python.</p>
-<p>Remember to:</p>
+<h2 id="step-3-design">Step 3: Design</h2>
+<p>Design the program before you start coding.</p>
+<p>Choose one of these:</p>
 <ul>
-<li>use the arrays given in the task</li>
-<li>convert number inputs using <code>int()</code> or <code>float()</code></li>
-<li>use calculations to work out each total</li>
-<li>display the output clearly</li>
-<li>include comments to explain the main sections of your program</li>
+<li>pseudocode</li>
+<li>a structure diagram</li>
+<li>a flowchart</li>
 </ul>
+<p>Your design should show this order:</p>
+<ol>
+<li>set up the item names and prices</li>
+<li>ask how many of each item was sold</li>
+<li>ask for the ingredient cost</li>
+<li>calculate the money made</li>
+<li>calculate the profit</li>
+<li>display the summary</li>
+</ol>
+<h2 id="step-4-code">Step 4: Code</h2>
+<p>Create the program in Python.</p>
+<p>Use these arrays in your program:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">itemNames</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Cupcakes"</span><span class="p">,</span> <span class="s2">"Brownies"</span><span class="p">,</span> <span class="s2">"Cookies"</span><span class="p">]</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">itemPrices</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1.50</span><span class="p">,</span> <span class="mf">2.00</span><span class="p">,</span> <span class="mf">0.75</span><span class="p">]</span>
+</span></code></pre></div>
+<p>Your program should calculate:</p>
+<ul>
+<li>the money made from cupcakes</li>
+<li>the money made from brownies</li>
+<li>the money made from cookies</li>
+<li>the total money made</li>
+<li>the profit</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Remember</p>
+<p>Use the item prices from the array when doing your calculations.</p>
+<p>Use <code>float()</code> for the ingredient cost because it might include pence.</p>
+</div>
 <h2 id="example-run">Example Run</h2>
-<p>Use the values below to check what your program should calculate.</p>
-<table>
+<p>This example shows the kind of answer your program should produce.</p>
+<table class="practice-table">
   <thead>
     <tr>
       <th>Example Input</th>
