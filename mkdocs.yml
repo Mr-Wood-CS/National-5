@@ -37,7 +37,11 @@ nav:
           - Variables: '01-sdd/1.4-implementation/input-output/5.1.11-variables(t).md'
           - Arrays: '01-sdd/1.4-implementation/input-output/5.1.12-arrays(t).md'
           - Numbers: '01-sdd/1.4-implementation/input-output/5.1.12-working-with-numbers(t).md'
-      - Putting It All Together: '01-sdd/1.4-implementation/5.1.14-putting-it-all-together.md'
+      - Putting It All Together:
+        - Overview: '01-sdd/1.4-implementation/5.1.14-putting-it-all-together.md'
+        - School Trip Calculator: '01-sdd/1.4-implementation/5.1.14.1-school-trip-calculator.md'
+        - Class Test Summary: '01-sdd/1.4-implementation/5.1.14.2-class-test-summary.md'
+        - Bake Sale Takings: '01-sdd/1.4-implementation/5.1.14.3-bake-sale-takings.md'
   - Computer Systems:
     - Data Representation:
       - Understanding Binary: '02-cs/2.1-data-representation/2.1-number-representation.md'
@@ -157,7 +161,7 @@ theme:
     - navigation.top
     - navigation.indexes 
     - navigation.path
-    #- navigation.footer
+    - navigation.footer
     - navigation.tabs
 plugins:
   - search
