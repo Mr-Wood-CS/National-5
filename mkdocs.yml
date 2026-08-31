@@ -24,19 +24,22 @@ nav:
       - Input/Output:
         - Overview: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.1-input-output.md'
         - Comments: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.2-comments.md'
-        - Variables: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.3-variables.md'
-        - Arrays: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.4-arrays.md'
+        - Variables:
+          - Explanation: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.3-variables.md'
+          - Tasks: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.12-variables-tasks.md'
+        - Arrays:
+          - Explanation: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.4-arrays.md'
+          - Tasks: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.13-arrays-tasks.md'
         - Data Types: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.5-data-types.md'
-        - Output: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.6-output.md'
-        - Input: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.7-input.md'
-        - Inputting Numbers: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.8-inputting-numbers.md'
-        - Calculations: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.9-calculations.md'
+        - Input and Output:
+          - Output: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.6-output.md'
+          - Input: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.7-input.md'
+          - Tasks: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.11-input-output-tasks.md'
+        - Working with Numbers:
+          - Inputting Numbers: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.8-inputting-numbers.md'
+          - Calculations: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.9-calculations.md'
+          - Tasks: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.14-working-with-numbers-tasks.md'
         - String Concatenation: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.10-string-concatenation.md'
-        - Tasks: 
-          - Input/Output: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.11-input-output-tasks.md'
-          - Variables: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.12-variables-tasks.md'
-          - Arrays: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.13-arrays-tasks.md'
-          - Numbers: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.14-working-with-numbers-tasks.md'
         - Putting It All Together:
           - Overview: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.15-putting-it-all-together.md'
           - School Trip Calculator: '01-sdd/1.4-implementation/1.4.1-input-output/1.4.1.15.1-school-trip-calculator.md'
