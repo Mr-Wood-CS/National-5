@@ -85,7 +85,9 @@ nav:
         - Validation: '03-ddd/3.3-design/3.3.1-data-dictionairies/3.3.1.4-validation.md'
         - Worked Example: '03-ddd/3.3-design/3.3.1-data-dictionairies/3.3.1.5-worked-example.md'
         - Tasks: '03-ddd/3.3-design/3.3.1-data-dictionairies/3.3.1.6-tasks.md'
-      - Database Relationships: '03-ddd/3.3-design/3.3.2-entity-relationship-diagrams/3.3.2-db-relationships.md'
+      - Database Relationships: 
+        - Explanation: '03-ddd/3.3-design/3.3.2-entity-relationship-diagrams/3.3.2-db-relationships.md'
+        - Tasks: '03-ddd/3.3-design/3.3.2-entity-relationship-diagrams/3.3.2.1-db-relationship-tasks.md'
       - Query Design: '03-ddd/3.3-design/3.3.3-query-design/3.3.3-query-design.md'
       - General Data Protection Regulation: '03-ddd/3.3-design/3.3.4-general-data-protection-regulation.md'
     - Implementation:
