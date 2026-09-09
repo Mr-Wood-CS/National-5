@@ -1,0 +1,164 @@
+05 - Simple Conditional Statements
+
+IF
+
+     Task 1
+
+          Below are the Comparison Operators in Python. Explain in your own words what each one does.
+
+
+                       Operator                                          Explanation
+                           ==
+                           !=
+                           >
+                           <
+                           >=
+                           <=
+
+
+     Task 2
+                                  A program will ask for a person’s age to join a youth club.
+
+                                   People who are over 21 should be told they are “too old”.
+
+          (a) Complete the box below to show the condition that would be needed in this program.
+
+
+
+                          age "comparison operator symbol" 21
+
+
+
+          (b) Looking at the general IF structure above plan the lines of an algorithm to solve this program problem (don’t
+          forget Input).
+
+          Pseudocode:
+
+
+
+
+          (c) Implement your design in Python. Once the program is running, add a print screen below.
+
+          Print screen:
+
+
+
+
+     Task 3
+                   A program will ask for a machine temperature in a factory to be entered by the operator.
+
+                       If the temperature is 6 or less a warning should appear to say stop the machine.
+
+          (a) Complete the box below to show the condition that would be needed in this program.
+
+
+
+                     "variable"      "comparison operator"     "value"
+
+
+
+          (b) Looking at the general IF structure above plan the lines of an algorithm to solve this program problem (don’t
+          forget Input).
+
+          Pseudocode:
+
+
+
+
+          (c) Implement your design in Python. Once the program is running, add a print screen below.
+
+          Print screen:
+
+
+
+
+IF/Else
+
+     Task 4
+          A program contains this if statement.
+IF/Else
+
+   Task 4
+          A program contains this if statement.
+
+
+
+
+          Describe what will happen when the user inputs a score of 5.
+
+           Answer:
+
+
+
+
+   Task 5
+
+          A program contains this if statement.
+
+
+
+
+          Describe what will happen when the wrong password is entered.
+
+           Answer:
+
+
+
+
+   Task 6
+          A program contains this if statement.
+
+
+
+
+          Explain what will happen when the user enters ‘Berlin’.
+
+           Answer:
+
+
+
+
+IF/ELIF/Else
+
+   Task 7
+          A program contains this if statement.
+
+
+
+
+          Explain what will happen if the user enters ‘6’.
+
+           Answer:
+   Explain what will happen if the user enters ‘6’.
+
+    Answer:
+
+
+
+
+Task 8
+
+  Write a program that suggests what clothing to wear based on the temperature. Use the following
+                                            conditions:
+
+         If the temperature is below 0°C, suggest wearing a heavy coat, gloves, and a hat.
+
+         If the temperature is between 0°C and 10°C, suggest wearing a jacket and sweater.
+
+      If the temperature is between 10°C and 20°C, suggest wearing a light jacket or sweater.
+
+              If the temperature is above 20°C, suggest short sleeves and light clothing.
+
+
+   (a) Looking at the general IF/ELIF/ELSE structure above plan the lines of an algorithm to solve this program
+   problem (don’t forget Input).
+
+         Pseudocode:
+
+
+
+
+   (b) Implement your design in Python. Once the program is running, add a print screen below.
+
+         Print screen:
+

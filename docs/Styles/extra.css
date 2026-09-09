@@ -49,6 +49,22 @@ table.practice-table td {
   min-height: 2.4rem;
 }
 
+table.data-dictionary-table {
+  width: 70%;
+  font-size: 0.665rem;
+}
+
+table.data-dictionary-table th,
+table.data-dictionary-table td {
+  padding: 0.385rem 0.455rem;
+}
+
+@media screen and (max-width: 44.9375em) {
+  table.data-dictionary-table {
+    width: 100%;
+  }
+}
+
 table.data-type-table {
   width: 100%;
   table-layout: fixed;
