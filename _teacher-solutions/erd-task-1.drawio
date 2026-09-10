@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="fIC1-5AizYY9SA29hpQb">
+    <mxGraphModel dx="1414" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="Showroom" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="Car" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-7" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="700" y="350" as="sourcePoint" />
+            <mxPoint x="720" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="370" as="sourcePoint" />
+            <mxPoint x="700" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-9" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-5" style="endArrow=none;html=1;rounded=0;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="350" as="sourcePoint" />
+            <mxPoint x="720" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="Loocation" vertex="1">
+          <mxGeometry height="80" width="120" x="180" y="374" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="&lt;u&gt;Registration Number&lt;/u&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="900" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="*Showroom ID" vertex="1">
+          <mxGeometry height="80" width="120" x="610" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="Address" vertex="1">
+          <mxGeometry height="80" width="120" x="350" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;fontSize=20;" value="Primary Keys = &lt;u&gt;Underlined&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="80" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;fontSize=20;" value="Foreign Keys = * Astrix" vertex="1">
+          <mxGeometry height="30" width="280" x="60" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Quicksand&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Quicksand&quot;&gt;Used Car Dealership&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="435" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="&lt;u&gt;Showroom ID&lt;/u&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="210" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="Phonenumber" vertex="1">
+          <mxGeometry height="80" width="120" x="380" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-21" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-19" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="PtQpBSuJTocF5MgCSwJM-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-22" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-5" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="PtQpBSuJTocF5MgCSwJM-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-23" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-15" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="PtQpBSuJTocF5MgCSwJM-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-24" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-11" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PtQpBSuJTocF5MgCSwJM-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="make" vertex="1">
+          <mxGeometry height="80" width="120" x="900" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="colour" vertex="1">
+          <mxGeometry height="80" width="120" x="850" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="model" vertex="1">
+          <mxGeometry height="80" width="120" x="700" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="Price" vertex="1">
+          <mxGeometry height="80" width="120" x="810" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Quicksand;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DQuicksand;" value="Fuel Type" vertex="1">
+          <mxGeometry height="80" width="120" x="670" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-30" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-14" style="endArrow=none;html=1;rounded=0;entryX=0.433;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="PtQpBSuJTocF5MgCSwJM-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-31" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-29" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="PtQpBSuJTocF5MgCSwJM-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-32" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-28" style="endArrow=none;html=1;rounded=0;entryX=0.867;entryY=1.083;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.417;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="PtQpBSuJTocF5MgCSwJM-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-33" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-25" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="PtQpBSuJTocF5MgCSwJM-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-34" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-6" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="PtQpBSuJTocF5MgCSwJM-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-35" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-6" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="PtQpBSuJTocF5MgCSwJM-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtQpBSuJTocF5MgCSwJM-36" edge="1" parent="1" source="PtQpBSuJTocF5MgCSwJM-6" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="PtQpBSuJTocF5MgCSwJM-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
