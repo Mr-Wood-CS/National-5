@@ -4209,10 +4209,6 @@
 <p>Use <code>if/elif/else</code> when a program must choose between more than two paths. <code>elif</code> is short for <strong>else if</strong>.</p>
 <h2 id="designing-several-paths">Designing Several Paths</h2>
 <p>A program can use several branches to assign a grade from a percentage mark.</p>
-<figure>
-  <a class="glightbox" href="../assets/Simple-Conditional-Statements-.drawio.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="A flowchart showing several grade decisions" src="../assets/Simple-Conditional-Statements-.drawio.png" width="700" /></a>
-</figure>
-<p>The same design can be represented in pseudocode:</p>
 <div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Assigning a Grade Design</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
 <span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
 <span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
@@ -4223,17 +4219,37 @@
 <span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
 <span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
 <span class="normal"><a href="#__codelineno-0-10">10</a></span>
-<span class="normal"><a href="#__codelineno-0-11">11</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a>1 mark = integer input
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>2 IF mark &gt;= 70 THEN
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a>3     grade = &quot;A&quot;
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a>4 ELSE IF mark &gt;= 60 THEN
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a>5     grade = &quot;B&quot;
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a>6 ELSE IF mark &gt;= 50 THEN
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a>7     grade = &quot;C&quot;
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a>8 ELSE
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a>9     grade = &quot;F&quot;
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a>10 END IF
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a>11 SEND grade TO DISPLAY
+<span class="normal"><a href="#__codelineno-0-11">11</a></span>
+<span class="normal"><a href="#__codelineno-0-12">12</a></span>
+<span class="normal"><a href="#__codelineno-0-13">13</a></span>
+<span class="normal"><a href="#__codelineno-0-14">14</a></span>
+<span class="normal"><a href="#__codelineno-0-15">15</a></span>
+<span class="normal"><a href="#__codelineno-0-16">16</a></span>
+<span class="normal"><a href="#__codelineno-0-17">17</a></span>
+<span class="normal"><a href="#__codelineno-0-18">18</a></span>
+<span class="normal"><a href="#__codelineno-0-19">19</a></span>
+<span class="normal"><a href="#__codelineno-0-20">20</a></span>
+<span class="normal"><a href="#__codelineno-0-21">21</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a>1 mark = integer input
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a>2 IF mark &gt;= 70 THEN
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a>3     grade = &quot;A&quot;
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a>4 ELSE IF mark &gt;= 60 THEN
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a>5     grade = &quot;B&quot;
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a>6 ELSE IF mark &gt;= 50 THEN
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13"></a>7     grade = &quot;C&quot;
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14"></a>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15"></a>8 ELSE
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16"></a>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17"></a>9     grade = &quot;F&quot;
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18"></a>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19"></a>10 END IF
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20"></a>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21"></a>11 SEND grade TO DISPLAY
 </span></code></pre></div></td></tr></table></div>
 <h2 id="implementing-several-paths">Implementing Several Paths</h2>
 <div class="language-python highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Assigning a Grade</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1"> 1</a></span>
