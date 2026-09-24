@@ -1,3 +1,5 @@
+BEGIN TRANSACTION;
+
 INSERT INTO Golfer (scotGolfNo,forename,surname,age,club,handicap) VALUES
 (9274632,'Craig','White','Junior','Dundee Golf Club',12),
 (8364766,'Donna','Winter','Adult','St Andrews Golf Club',4),
@@ -258,3 +260,5 @@ INSERT INTO Golfer (scotGolfNo,forename,surname,age,club,handicap) VALUES
 (3359893,'Hamish','MacKenna','Senior','Sanquhar Golf Club',4),
 (3827655,'Erlea','Devine','Senior','Hawick Golf Club',9),
 (7805633,'Milka','Lennox','Senior','Braehead Golf',7);
+
+COMMIT;

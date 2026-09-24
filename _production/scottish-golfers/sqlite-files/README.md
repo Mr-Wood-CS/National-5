@@ -1,10 +1,18 @@
-# One Compiler Scotland Golfers data
+# SQLite Scottish Golfers Data
+
+These scripts use SQLite data types, foreign-key enforcement and transactions for bulk inserts.
+
+A prebuilt `scottish-golfers.db` database is also provided. It contains the completed table structure, 259 golfer records and 727 result records.
 
 Use these SQL files in order:
 
-1. `01_create_tables.sql`
-2. `02_insert_golfer.sql`
-3. `03_insert_result.sql`
+1. `01-create-tables.sql`
+2. `02-insert-golfers.sql`
+3. `03-insert-results.sql`
+
+Use `04-scottish-golfers-insert-update-delete-setup.sql` when a single setup file is required for the INSERT, UPDATE and DELETE tasks.
+
+The original CSV files are in `../source-data`, and the pupil worksheets are in `../worksheets`.
 
 The golfer table is kept intact from the supplied source after removing the unused male/female CSV column. The result table is trimmed to the rows needed by Student Tasks 2, 3 and 4, plus the sample rows shown in those papers.
 

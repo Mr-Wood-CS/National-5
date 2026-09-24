@@ -1,3 +1,5 @@
+BEGIN TRANSACTION;
+
 INSERT INTO Result (resultID,competition,level,type,year,score,scotGolfNo,matchType) VALUES
 ('DUF0132','Dunfermline Open','Senior','Ladies',2021,92,9654668,'stroke play'),
 ('DUF0122','Dunfermline Open','Senior','Ladies',2021,73,4064797,'stroke play'),
@@ -726,3 +728,5 @@ INSERT INTO Result (resultID,competition,level,type,year,score,scotGolfNo,matchT
 ('TIR0028','Tiree Masters','Adult','Ladies',2021,87,7630192,'stroke play'),
 ('TIR0078','Tiree Masters','Adult','Ladies',2022,94,6660755,'stroke play'),
 ('TIR0079','Tiree Masters','Adult','Ladies',2022,98,9841327,'stroke play');
+
+COMMIT;

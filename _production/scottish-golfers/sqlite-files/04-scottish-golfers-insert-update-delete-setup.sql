@@ -1,26 +1,30 @@
+PRAGMA foreign_keys = ON;
+
 DROP TABLE IF EXISTS Result;
 DROP TABLE IF EXISTS Golfer;
 
 CREATE TABLE Golfer (
-  scotGolfNo INT NOT NULL PRIMARY KEY,
-  forename VARCHAR(255) NOT NULL,
-  surname VARCHAR(255) NOT NULL,
-  age VARCHAR(255) NOT NULL,
-  club VARCHAR(255) NOT NULL,
-  handicap INT
+  scotGolfNo INTEGER PRIMARY KEY,
+  forename TEXT NOT NULL,
+  surname TEXT NOT NULL,
+  age TEXT NOT NULL,
+  club TEXT NOT NULL,
+  handicap INTEGER
 );
 
 CREATE TABLE Result (
-  resultID VARCHAR(255) NOT NULL PRIMARY KEY,
-  competition VARCHAR(255) NOT NULL,
-  level VARCHAR(255) NOT NULL,
-  type VARCHAR(255) NOT NULL,
-  year INT NOT NULL,
-  score INT NOT NULL,
-  scotGolfNo INT NOT NULL,
-  matchType VARCHAR(255) NOT NULL,
+  resultID TEXT PRIMARY KEY,
+  competition TEXT NOT NULL,
+  level TEXT NOT NULL,
+  type TEXT NOT NULL,
+  year INTEGER NOT NULL,
+  score INTEGER NOT NULL,
+  scotGolfNo INTEGER NOT NULL,
+  matchType TEXT NOT NULL,
   FOREIGN KEY (scotGolfNo) REFERENCES Golfer(scotGolfNo)
 );
+
+BEGIN TRANSACTION;
 
 INSERT INTO Golfer (scotGolfNo,forename,surname,age,club,handicap) VALUES
 (9274632,'Craig','White','Junior','Dundee Golf Club',12),
@@ -1012,3 +1016,5 @@ INSERT INTO Result (resultID,competition,level,type,year,score,scotGolfNo,matchT
 ('TIR0028','Tiree Masters','Adult','Ladies',2021,87,7630192,'stroke play'),
 ('TIR0078','Tiree Masters','Adult','Ladies',2022,94,6660755,'stroke play'),
 ('TIR0079','Tiree Masters','Adult','Ladies',2022,98,9841327,'stroke play');
+
+COMMIT;
